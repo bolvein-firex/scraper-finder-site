@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T18:00:26.247Z",
+  "generatedAt": "2026-11-01T19:02:17.581Z",
   "orgCount": 4,
-  "actorCount": 247,
+  "actorCount": 248,
   "actors": [
     {
       "id": "vexaloom-labs~linkedin-people-search-by-name-with-company",
@@ -12251,6 +12251,97 @@
       },
       "readmeSummary": "",
       "successRate": 100,
+      "popularity": 102
+    },
+    {
+      "id": "vexaloom-labs~paste-site-keyword-leak-finder-pastebin-gist",
+      "actorId": "0OfQa0Uu4ZA0rhzyL",
+      "title": "Paste Site Keyword Leak Finder (Pastebin, Gist & More)",
+      "description": "Search Pastebin, GitHub Gist, Ideone, Paste.org, and Textbin for keywords such as leaked credentials, API keys, or company names, and get back the matching paste's URL, title, and text snippet.",
+      "categories": [
+        "AUTOMATION",
+        "DEVELOPER_TOOLS",
+        "LEAD_GENERATION"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/YI74XqGE0Phrk53gdti8xg7SutQqTHorcNcRIqJKK2E/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTkw0VGhnSXRBd2FvQmxmZlEtYWN0b3ItME9mUWEwVXU0WkEwcmh6eUwtczZyWFVJaUxieS1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/vexaloom-labs/paste-site-keyword-leak-finder-pastebin-gist",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "lastRunStartedAt": "2026-11-01T18:12:23.752Z"
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-01T18:11:43.201Z",
+        "startedAt": "2026-11-01T18:11:43.201Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
       "popularity": 102
     },
     {
