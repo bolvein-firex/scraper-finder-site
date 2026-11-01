@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T17:53:48.269Z",
+  "generatedAt": "2026-11-01T18:00:26.247Z",
   "orgCount": 4,
   "actorCount": 247,
   "actors": [
@@ -1083,6 +1083,104 @@
         "apifyMarginPercentage": 0.2
       },
       "readmeSummary": "",
+      "successRate": 100,
+      "popularity": 102
+    },
+    {
+      "id": "xyrelith-data~99designs-designer-portfolio-and-stats-finder",
+      "actorId": "xMbLYZK0HsLPDk2xn",
+      "title": "99designs Designer Portfolio & Stats Finder",
+      "description": "Browse 99designs designer profiles by keyword and category, or fetch specific designers by URL or ID, with experience level, portfolio stats, and contest record.",
+      "categories": [
+        "JOBS",
+        "LEAD_GENERATION",
+        "AUTOMATION"
+      ],
+      "pictureUrl": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/tnBVjt3CXmcUrEE3L-actor-xMbLYZK0HsLPDk2xn-u1sV0MknLT-logo.png",
+      "url": "https://apify.com/xyrelith-data/99designs-designer-portfolio-and-stats-finder",
+      "stats": {
+        "totalBuilds": 2,
+        "totalRuns": 3,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "lastRunStartedAt": "2026-11-01T13:42:26.267Z",
+        "publicActorRunStats30Days": {
+          "ABORTED": 0,
+          "FAILED": 0,
+          "SUCCEEDED": 1,
+          "TIMED-OUT": 0,
+          "TOTAL": 1
+        }
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-01T11:11:33.139Z",
+        "startedAt": "2026-11-01T11:11:33.139Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "## 99designs Designer Portfolio & Stats Finder\n\nA scraper for 99designs that finds designers in the public directory or opens exact designer profiles to extract structured per-designer records: identity and tier, join date, portfolio metadata and images, contest and one-to-one project statistics, client review ratings and counts, availability and online status in search results, published responsiveness score, listed languages and certifications, and basic profile text. Supports directory search by keyword combined with multidimensional filters (design category, experience level, language, industry, certification), exact-profile retrieval by identifiers or URLs, de-duplication of results, configurable profile-depth and portfolio depth (slice of designs per designer with image, likes, date, category/industry and link), and comparative metrics for contests won, runner-up placements, repeat clients, total designs and likes. Outputs a structured dataset of designer records with timestamps and record markers suitable for sourcing, vetting and analytics.\n\n## Use cases\n\n- Designer sourcing: shortlist designers by category, level and language and compare contest and repeat-client metrics.  \n- Vendor vetting: open a known profile to inspect rating, availability and portfolio before engagement.  \n- Market research: measure counts and portfolio depth across categories, industries or certifications and compare designer metrics.  \n- Portfolio tracking: re-scrape saved designer lists to follow new designs, likes and review growth over time.",
       "successRate": 100,
       "popularity": 102
     },
@@ -5298,6 +5396,104 @@
         "apifyMarginPercentage": 0.2
       },
       "readmeSummary": "",
+      "successRate": 100,
+      "popularity": 102
+    },
+    {
+      "id": "xyrelith-data~freelancermap-it-projects-and-freelancer-finder",
+      "actorId": "PZaEPJPMb3jko1X4z",
+      "title": "Freelancermap IT Projects & Freelancer Finder",
+      "description": "Search freelancermap.com IT freelance projects and freelancer profiles by category, workplace type, contract type, location, and skills, or fetch full detail by URL.",
+      "categories": [
+        "JOBS",
+        "LEAD_GENERATION",
+        "AUTOMATION"
+      ],
+      "pictureUrl": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/tnBVjt3CXmcUrEE3L-actor-PZaEPJPMb3jko1X4z-tUlhtPyrXT-logo.png",
+      "url": "https://apify.com/xyrelith-data/freelancermap-it-projects-and-freelancer-finder",
+      "stats": {
+        "totalBuilds": 2,
+        "totalRuns": 6,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "lastRunStartedAt": "2026-11-01T13:44:36.141Z",
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "publicActorRunStats30Days": {
+          "ABORTED": 0,
+          "FAILED": 0,
+          "SUCCEEDED": 2,
+          "TIMED-OUT": 0,
+          "TOTAL": 2
+        }
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-10-31T10:12:10.879Z",
+        "startedAt": "2026-10-31T10:12:10.879Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "## Freelancermap Projects & Freelancer Profiles Scrape\n\nScrapes live IT project listings and freelancer profiles from freelancermap.com to produce structured project and freelancer records for search, enrichment and analysis. Supports targeted and broad searches by keyword, skill, category, country, city, contract type and workplace setup, or direct project/profile URLs; provides four operational modes: project search, freelancer search, project detail and freelancer profile detail. Outputs comprehensive project data (titles and descriptions, required skills, industry, contract and remote share, budget amounts and currency, start and duration details, workload and status flags, posting and expiry dates, reference/company/poster information, locations) and comprehensive freelancer data (published rate and currency, experience and seniority signals, skills and skills counts, spoken languages with proficiency levels, availability and availability percentage, travel preferences, certifications, project history, portfolio items, public recommendations, attachment file names, membership/freshness signals and avatar). Technically, the Actor fetches public JSON endpoints and pages over HTTP without credentials, slices queries across site facets (sort orders, contract/workplace buckets, categories, countries, industries, posting dates, languages, rate and availability thresholds), merges and de-duplicates facet slices to expand coverage beyond the anonymous first page, supports multiple queries per run and optional detail-page enrichment, and omits empty fields instead of emitting nulls.\n\n## Use cases\n\n- Recruiters and staffing agencies monitoring fresh freelance IT demand.  \n- Sourcing shortlists of available freelancers by skill, language and rate.  \n- Rate and skill benchmarking across European IT markets.  \n- Lead generation from projects that disclose the hiring company and poster.",
       "successRate": 100,
       "popularity": 102
     },
@@ -11568,6 +11764,104 @@
       "popularity": 102
     },
     {
+      "id": "xyrelith-data~new-york-dos-business-entity-registry-lookup",
+      "actorId": "z5kjwPgX5t6AcMwCj",
+      "title": "New York DOS Business Entity Registry Lookup",
+      "description": "Search New York's free public business entity registry by name, DOS ID number, registered agent, county, entity type, jurisdiction, city, or officer name, with formation date and address details.",
+      "categories": [
+        "AUTOMATION",
+        "LEAD_GENERATION",
+        "DEVELOPER_TOOLS"
+      ],
+      "pictureUrl": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/tnBVjt3CXmcUrEE3L-actor-z5kjwPgX5t6AcMwCj-1arXLzLLm1-logo.png",
+      "url": "https://apify.com/xyrelith-data/new-york-dos-business-entity-registry-lookup",
+      "stats": {
+        "totalBuilds": 2,
+        "totalRuns": 5,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "lastRunStartedAt": "2026-11-01T15:14:22.763Z",
+        "publicActorRunStats30Days": {
+          "ABORTED": 0,
+          "FAILED": 0,
+          "SUCCEEDED": 2,
+          "TIMED-OUT": 0,
+          "TOTAL": 2
+        }
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-10-31T15:11:34.324Z",
+        "startedAt": "2026-10-31T15:11:34.324Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "## New York Business Entity Search & Filing History\n\nSearch and extract structured records from the New York Department of State business-entity registry and its open-data publication. Performs entity lookup across a variety of modes (name, identification number, assumed name/DBA, registered agent, county, city, ZIP, state, entity type, jurisdiction of formation, officer/CEO and others) and returns live status (active, inactive, suspended) with status dates and recorded reasons, identity data (legal name, registry ID, entity type/category, formation and effective filing dates, jurisdiction, county), registration details (statutory section, statement status and due date, service-of-process and principal-office addresses, registered agent and officer/CEO on file, electronic service status, foreign formation info, stock/share structure), and optional histories (name changes, filing timeline, merger history, assumed-name/DBA history). Supports filtering and ordering (entity-type categories, formation-date range, status filters, multiple search terms, sort by name or date), merges supplemental agent/location fields from the state’s open-data feed into active records, and omits empty fields in output. Data source: New York Department of State public business-entity registry and official open-data publication; output consists of structured entity identity, registration detail, history, and metadata useful for downstream analysis and lookup.\n\n## Use cases\n\n- Due diligence and KYC: confirm legal name, registry ID, formation date and current status for vendors and counterparties  \n- Compliance and litigation research: trace prior names, mergers and filing history for New York entities  \n- Registered-agent research: identify active entities represented by a specific registered agent in New York  \n- DBA and brand research: find legal entities operating under a storefront, brand or trade name (assumed names / DBAs)  \n- Lead lists: build active-business lists by county, ZIP code, entity type or formation date  \n- Name availability checks: discover existing legal names and assumed names before forming a new entity",
+      "successRate": 100,
+      "popularity": 102
+    },
+    {
       "id": "dataspryva~noon-com-multi-market-product-search-by-discount",
       "actorId": "qDg5x3pgFoSyTs8EB",
       "title": "Noon.com Multi-Market Product Search by Discount",
@@ -14610,6 +14904,104 @@
       "popularity": 102
     },
     {
+      "id": "xyrelith-data~stockx-market-price-and-sales-history-finder",
+      "actorId": "Yhm8OsBrdtdtfG6wk",
+      "title": "StockX Market Price & Sales History Finder",
+      "description": "Get StockX lowest ask, highest bid, last sale, and recent sales history for sneakers, streetwear, watches, and collectibles, by search, brand, category, or product slug.",
+      "categories": [
+        "ECOMMERCE",
+        "AUTOMATION",
+        "DEVELOPER_TOOLS"
+      ],
+      "pictureUrl": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/tnBVjt3CXmcUrEE3L-actor-Yhm8OsBrdtdtfG6wk-LTmh2bIAAp-logo.png",
+      "url": "https://apify.com/xyrelith-data/stockx-market-price-and-sales-history-finder",
+      "stats": {
+        "totalBuilds": 2,
+        "totalRuns": 5,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "lastRunStartedAt": "2026-11-01T08:24:11.804Z",
+        "publicActorRunStats30Days": {
+          "ABORTED": 0,
+          "FAILED": 0,
+          "SUCCEEDED": 1,
+          "TIMED-OUT": 0,
+          "TOTAL": 1
+        }
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-10-31T20:13:26.185Z",
+        "startedAt": "2026-10-31T20:13:26.185Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "## StockX Market Price & Sales History Finder\n\nCollects live StockX resale market data for sneakers, apparel, watches, handbags, electronics, collectibles, and trading cards. The Actor queries StockX in multiple modes (keyword search, brand or category browse, exact product lookup via slugs or URLs, and per-product sales history) and returns rich product metadata and market analytics: product identifiers and descriptions, style and colorway details, retail and release data, image galleries and 360° views, GTINs and size conversions; per-market pricing across currencies and countries; full market snapshots including current best ask and bid, ask/bid tiers and order-book depth, per-size order books with spreads and counts, last-sale and recent-sales metrics, short-term velocity and 90-day/annual averages, volatility and price-premium indicators, and 12‑month low/high ranges. It can enrich listings with individual transaction records (timestamped sales, sale price and currency, order type, sold size and variant) and reports when source-imposed query caps or filters affect results.\n\n## Use cases\n\n- Resale price monitoring: track current asks, bids, and recent sale prices per product.  \n- Sneaker and streetwear research: compare colorways, release dates, retail price, and 12‑month ranges.  \n- Watch and collectible inventory analysis: read per-size/variant order books, spreads, and ask depth.  \n- Sales-ledger analysis: extract individual transactions to study realized prices, size premiums, and volume.  \n- Cross-market pricing: compare localized pricing by requesting the same product across currencies and markets.  \n- Catalog enrichment: collect style IDs, GTINs, colorways, traits, and image galleries for product databases.",
+      "successRate": 100,
+      "popularity": 102
+    },
+    {
       "id": "vexaloom-labs~substack-publication-post-exporter",
       "actorId": "n7xofJAWyJUILJ0N1",
       "title": "Substack Publication Post Exporter",
@@ -15880,6 +16272,104 @@
       "popularity": 102
     },
     {
+      "id": "xyrelith-data~tor-hidden-service-crawler-and-contact-extractor",
+      "actorId": "OL8Hv3EeydbTSbCFR",
+      "title": "Tor Hidden Service Crawler & Contact Extractor",
+      "description": "Crawl Tor .onion sites by URL or keyword search and pull emails, phone numbers, crypto wallet addresses, social handles, and exposed API keys from each page.",
+      "categories": [
+        "LEAD_GENERATION",
+        "AUTOMATION",
+        "DEVELOPER_TOOLS"
+      ],
+      "pictureUrl": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/tnBVjt3CXmcUrEE3L-actor-OL8Hv3EeydbTSbCFR-BKR3uAd6RD-logo.png",
+      "url": "https://apify.com/xyrelith-data/tor-hidden-service-crawler-and-contact-extractor",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "lastRunStartedAt": "2026-11-01T16:12:23.656Z",
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "publicActorRunStats30Days": {
+          "ABORTED": 0,
+          "FAILED": 0,
+          "SUCCEEDED": 1,
+          "TIMED-OUT": 0,
+          "TOTAL": 1
+        }
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-01T16:11:45.378Z",
+        "startedAt": "2026-11-01T16:11:45.378Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "## Tor Hidden Service Crawler & Contact Extractor\n\nCrawls Tor .onion hidden services and extracts structured contact and forensic data for dark web analysis, including email addresses, phone numbers, cryptocurrency wallet addresses categorized by currency (Bitcoin, Ethereum, Monero, Litecoin, Bitcoin Cash, Ripple), social media handles (Twitter/X, Instagram, Telegram), and exposed API keys. Operates in three modes—crawling specified .onion seeds, searching dark web indexes by keyword, or combining discovery and crawl—performing link discovery, absolute URL resolution, and mapping of links that point to other .onion hosts. Crawl behavior supports configurable link-following depth and page-budget limits; extractors for each data type can be toggled independently. Produces per-page records containing page URL and source, page title, discovered links (with a subset of onion-to-onion links), detected contact items, categorized crypto wallet addresses, social handles and API key strings, keyword-presence indicators when applicable, and scrape timestamps; records omit empty fields. The actor performs Tor routing internally so no external Tor/proxy configuration is required.\n\n## Use cases\n\n- Threat intelligence: monitor hidden services for leaked credentials, stolen data, or mentions of an organization  \n- Brand protection: detect unauthorized use of brand names or products on dark web sites  \n- Security research: surface exposed API keys and wallet addresses on .onion sites  \n- OSINT investigations: map hidden-service link structures and collect contact information  \n- Cryptocurrency tracing: collect wallet addresses associated with specific dark web sites",
+      "successRate": 100,
+      "popularity": 102
+    },
+    {
       "id": "dataspryva~totaljobs-uk-vacancy-finder-by-keyword-area",
       "actorId": "oa2Q6nW8vIp072JMx",
       "title": "Totaljobs UK Vacancy Finder by Keyword, Area & Pay",
@@ -16861,6 +17351,104 @@
       "popularity": 102
     },
     {
+      "id": "xyrelith-data~udemy-course-catalog-and-rating-finder",
+      "actorId": "6ETWJXbi7VH2I7peO",
+      "title": "Udemy Course Catalog & Rating Finder",
+      "description": "Search Udemy courses by keyword, category, or instructor, with rating, subscriber count, price, curriculum size, and level filters.",
+      "categories": [
+        "DEVELOPER_TOOLS",
+        "AUTOMATION",
+        "AI"
+      ],
+      "pictureUrl": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/tnBVjt3CXmcUrEE3L-actor-6ETWJXbi7VH2I7peO-rtmR0HI7ZM-logo.png",
+      "url": "https://apify.com/xyrelith-data/udemy-course-catalog-and-rating-finder",
+      "stats": {
+        "totalBuilds": 2,
+        "totalRuns": 3,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "lastRunStartedAt": "2026-11-01T08:27:28.257Z",
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "publicActorRunStats30Days": {
+          "ABORTED": 0,
+          "FAILED": 0,
+          "SUCCEEDED": 1,
+          "TIMED-OUT": 0,
+          "TOTAL": 1
+        }
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-01T01:11:59.675Z",
+        "startedAt": "2026-11-01T01:11:59.675Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "## Udemy Course Catalog & Instructor Finder Scrape\n\nA web-scraping Actor that extracts Udemy course catalog and instructor portfolio metadata for keyword search, category/topic browsing, targeted course-URL retrieval, or full instructor catalog pulls. It returns per-course metadata including pricing and discount details (numeric and currency), ratings and review/subscriber counts, course duration and content-length information, counts and types of curriculum items (sections, lectures, quizzes, practice tests, coding exercises, assignments), learning outcomes, requirements, target audiences, certificates and closed-caption availability (with languages), badges and date metadata, primary category/subcategory and locale/language, instructor metadata, and plain-text descriptions; it also emits instructor-profile records with profile info, course totals and social links followed by the instructor’s courses. The Actor supports rich buyer-style filters (level, free/paid, language, minimum rating, video-length ranges, presence of quizzes/practice tests/coding exercises/role-play/certification-prep, closed-caption language requirements), can paginate large catalogs (batch sizing with a per-slice cap), omits empty fields from records, and reads publicly available Udemy pages without signing in.\n\n## Use cases\n\n- Course market research: compare prices, discounts, ratings, and subscriber counts across categories  \n- Curriculum benchmarking: compare section and lecture structures across competing courses  \n- Instructor scouting: obtain a teacher’s full catalog and audience size for partnership evaluation  \n- Deal monitoring: track list prices, sale prices, and discount percentages over time  \n- Learning-path planning: shortlist courses by language, level, duration, and learning outcomes  \n- Catalog enrichment: add Udemy course metadata, badges, captions, and curriculum structure to an existing catalog",
+      "successRate": 100,
+      "popularity": 102
+    },
+    {
       "id": "dataspryva~unsplash-photo-search-by-topic-collection",
       "actorId": "hyzBjwc4TeOTrPbn3",
       "title": "Unsplash Photo Search by Topic, Collection & Creator",
@@ -17347,6 +17935,104 @@
         "apifyMarginPercentage": 0.2
       },
       "readmeSummary": "",
+      "successRate": 100,
+      "popularity": 102
+    },
+    {
+      "id": "xyrelith-data~vimeo-channel-creator-and-video-metadata-extractor",
+      "actorId": "0MfeySD0gdL0g8yWT",
+      "title": "Vimeo Channel, Creator & Video Metadata Extractor",
+      "description": "Get Vimeo video metadata from channels, creator uploads, specific video URLs, or Staff Picks, with views, likes, comments, duration, and uploader details.",
+      "categories": [
+        "VIDEOS",
+        "SOCIAL_MEDIA",
+        "AUTOMATION"
+      ],
+      "pictureUrl": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/tnBVjt3CXmcUrEE3L-actor-0MfeySD0gdL0g8yWT-AgDu9Y5KKW-logo.png",
+      "url": "https://apify.com/xyrelith-data/vimeo-channel-creator-and-video-metadata-extractor",
+      "stats": {
+        "totalBuilds": 2,
+        "totalRuns": 3,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "lastRunStartedAt": "2026-11-01T13:30:52.371Z",
+        "publicActorRunStats30Days": {
+          "ABORTED": 0,
+          "FAILED": 0,
+          "SUCCEEDED": 1,
+          "TIMED-OUT": 0,
+          "TOTAL": 1
+        }
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-01T06:11:32.986Z",
+        "startedAt": "2026-11-01T06:11:32.986Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "## Vimeo Channel, Creator & Video Metadata Extractor\n\nA web scraping Actor that extracts structured metadata from public Vimeo content: videos, creators, channels, comments and likers. It supports multiple operational modes (channel lists, creator/user profiles, single-video details, Staff Picks, keyword search, creator search, channel search, category and tag browsing, showcases, video comments and video likers), advanced search filters (duration, 4K/resolution, price, Creative Commons license, upload date ranges, Staff Picks, HDR variants, 360/spatial, live status, category) and sort orders (relevance, date, popularity and alphabetical options). The Actor outputs dense, structured records for videos (identifiers, titles, descriptions, canonical and embed URLs, thumbnails, uploader identity and profile context, timestamps, duration, resolution/HD flag, view/like/comment counts, tags, language, license, content rating, privacy and embeddability/download/playability/audio flags, Vimeo badges such as Staff Pick/HDR/live/VOD, channel/context metadata and source URL), creator profiles (biography, avatar, counts, links, verification and account type), channel profiles (descriptions, assets, counts, tags/categories), comment threads (text, authorship, timestamps, reply totals) and liker profiles (user identity, profile links, location and join date). The Actor can optionally emit creator and channel profile records preceding their videos, deduplicates videos discovered across multiple sources, and can return large result sets (supports up to 10,000 records per source).\n\n## Use cases\n\n- Content curation: monitor Staff Picks, channels and categories for new films to feature\n- Creator research: compare creator upload histories, follower counts and engagement metrics\n- Brand and agency monitoring: discover brand films by keyword, category, license or upload date\n- Audience analysis: extract commenters and likers for community and influencer research\n- Metadata archiving: build structured catalogs of titles, tags, licenses, dates and badges\n- Embed sourcing: collect player URLs and thumbnails for curated video collections",
       "successRate": 100,
       "popularity": 102
     },
@@ -21868,26 +22554,6 @@
       "popularity": 101
     },
     {
-      "id": "xyrelith-data~99designs-designer-portfolio-and-stats-finder",
-      "actorId": "xMbLYZK0HsLPDk2xn",
-      "title": "99designs Designer Portfolio & Stats Finder",
-      "description": "Browse 99designs designer profiles by keyword and category, or fetch specific designers by URL or ID, with experience level, portfolio stats, and contest record.",
-      "categories": [
-        "JOBS",
-        "LEAD_GENERATION",
-        "AUTOMATION"
-      ],
-      "pictureUrl": "https://images.apifyusercontent.com/8Vou0-c1CFLh3FgNgtgevmsT3BTpG5i79zIILkkbZFM/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vdG5CVmp0M0NYbWNVckVFM0wtYWN0b3IteE1iTFlaSzBIc0xQRGsyeG4tdTFzVjBNa25MVC1sb2dvLnBuZw.webp",
-      "url": "https://apify.com/xyrelith-data/99designs-designer-portfolio-and-stats-finder",
-      "stats": {
-        "totalUsers": 2
-      },
-      "pricing": null,
-      "readmeSummary": "",
-      "successRate": null,
-      "popularity": 2
-    },
-    {
       "id": "nimbryxo-studio~facebook-public-follower-and-following-snapshot",
       "actorId": "ki8WyzulpUxTuJFkV",
       "title": "Facebook Public Follower & Following Snapshot Tool",
@@ -21986,26 +22652,6 @@
       "popularity": 2
     },
     {
-      "id": "xyrelith-data~freelancermap-it-projects-and-freelancer-finder",
-      "actorId": "PZaEPJPMb3jko1X4z",
-      "title": "Freelancermap IT Projects & Freelancer Finder",
-      "description": "Search freelancermap.com IT freelance projects and freelancer profiles by category, workplace type, contract type, location, and skills, or fetch full detail by URL.",
-      "categories": [
-        "JOBS",
-        "LEAD_GENERATION",
-        "AUTOMATION"
-      ],
-      "pictureUrl": "https://images.apifyusercontent.com/DouIY0_-4GMsXm9HntpkBcb_X2jflpegS6h0SyMmBiM/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vdG5CVmp0M0NYbWNVckVFM0wtYWN0b3ItUFphRVBKUE1iM2prbzFYNHotdFVsaHRQeXJYVC1sb2dvLnBuZw.webp",
-      "url": "https://apify.com/xyrelith-data/freelancermap-it-projects-and-freelancer-finder",
-      "stats": {
-        "totalUsers": 2
-      },
-      "pricing": null,
-      "readmeSummary": "",
-      "successRate": null,
-      "popularity": 2
-    },
-    {
       "id": "nimbryxo-studio~google-ads-advertiser-creative-history-scraper",
       "actorId": "9wEoeBWrpFtgDeTGz",
       "title": "Google Ads Advertiser Creative History Scraper",
@@ -22101,106 +22747,6 @@
       },
       "readmeSummary": "",
       "successRate": 100,
-      "popularity": 2
-    },
-    {
-      "id": "xyrelith-data~new-york-dos-business-entity-registry-lookup",
-      "actorId": "z5kjwPgX5t6AcMwCj",
-      "title": "New York DOS Business Entity Registry Lookup",
-      "description": "Search New York's free public business entity registry by name, DOS ID number, registered agent, county, entity type, jurisdiction, city, or officer name, with formation date and address details.",
-      "categories": [
-        "AUTOMATION",
-        "LEAD_GENERATION",
-        "DEVELOPER_TOOLS"
-      ],
-      "pictureUrl": "https://images.apifyusercontent.com/7-hFe48vIWX7uMRPPreTELlw6x3MN_bTweGGzvIapNY/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vdG5CVmp0M0NYbWNVckVFM0wtYWN0b3ItejVrandQZ1g1dDZBY013Q2otMWFyWEx6TExtMS1sb2dvLnBuZw.webp",
-      "url": "https://apify.com/xyrelith-data/new-york-dos-business-entity-registry-lookup",
-      "stats": {
-        "totalUsers": 2
-      },
-      "pricing": null,
-      "readmeSummary": "",
-      "successRate": null,
-      "popularity": 2
-    },
-    {
-      "id": "xyrelith-data~stockx-market-price-and-sales-history-finder",
-      "actorId": "Yhm8OsBrdtdtfG6wk",
-      "title": "StockX Market Price & Sales History Finder",
-      "description": "Get StockX lowest ask, highest bid, last sale, and recent sales history for sneakers, streetwear, watches, and collectibles, by search, brand, category, or product slug.",
-      "categories": [
-        "ECOMMERCE",
-        "AUTOMATION",
-        "DEVELOPER_TOOLS"
-      ],
-      "pictureUrl": "https://images.apifyusercontent.com/Su2R3lnesZRpWDkN9f5J1nXoLtZQzi_IqPjrJ69b7gA/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vdG5CVmp0M0NYbWNVckVFM0wtYWN0b3ItWWhtOE9zQnJkdGR0Zkc2d2stTFRtaDJiSUFBcC1sb2dvLnBuZw.webp",
-      "url": "https://apify.com/xyrelith-data/stockx-market-price-and-sales-history-finder",
-      "stats": {
-        "totalUsers": 2
-      },
-      "pricing": null,
-      "readmeSummary": "",
-      "successRate": null,
-      "popularity": 2
-    },
-    {
-      "id": "xyrelith-data~tor-hidden-service-crawler-and-contact-extractor",
-      "actorId": "OL8Hv3EeydbTSbCFR",
-      "title": "Tor Hidden Service Crawler & Contact Extractor",
-      "description": "Crawl Tor .onion sites by URL or keyword search and pull emails, phone numbers, crypto wallet addresses, social handles, and exposed API keys from each page.",
-      "categories": [
-        "LEAD_GENERATION",
-        "AUTOMATION",
-        "DEVELOPER_TOOLS"
-      ],
-      "pictureUrl": "https://images.apifyusercontent.com/c_sNqPKbRulC1GVRDIojfVpWZgIJMrcQU7dz8AEQP9A/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vdG5CVmp0M0NYbWNVckVFM0wtYWN0b3ItT0w4SHYzRWV5ZGJUU2JDRlItQktSM3VBZDZSRC1sb2dvLnBuZw.webp",
-      "url": "https://apify.com/xyrelith-data/tor-hidden-service-crawler-and-contact-extractor",
-      "stats": {
-        "totalUsers": 2
-      },
-      "pricing": null,
-      "readmeSummary": "",
-      "successRate": null,
-      "popularity": 2
-    },
-    {
-      "id": "xyrelith-data~udemy-course-catalog-and-rating-finder",
-      "actorId": "6ETWJXbi7VH2I7peO",
-      "title": "Udemy Course Catalog & Rating Finder",
-      "description": "Search Udemy courses by keyword, category, or instructor, with rating, subscriber count, price, curriculum size, and level filters.",
-      "categories": [
-        "DEVELOPER_TOOLS",
-        "AUTOMATION",
-        "AI"
-      ],
-      "pictureUrl": "https://images.apifyusercontent.com/NID0FfGfyQ-qKDizV2yOf9rY4-DQiZNd-Hc8bczlVIM/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vdG5CVmp0M0NYbWNVckVFM0wtYWN0b3ItNkVUV0pYYmk3VkgySTdwZU8tcnRtUjBISTdaTS1sb2dvLnBuZw.webp",
-      "url": "https://apify.com/xyrelith-data/udemy-course-catalog-and-rating-finder",
-      "stats": {
-        "totalUsers": 2
-      },
-      "pricing": null,
-      "readmeSummary": "",
-      "successRate": null,
-      "popularity": 2
-    },
-    {
-      "id": "xyrelith-data~vimeo-channel-creator-and-video-metadata-extractor",
-      "actorId": "0MfeySD0gdL0g8yWT",
-      "title": "Vimeo Channel, Creator & Video Metadata Extractor",
-      "description": "Get Vimeo video metadata from channels, creator uploads, specific video URLs, or Staff Picks, with views, likes, comments, duration, and uploader details.",
-      "categories": [
-        "VIDEOS",
-        "SOCIAL_MEDIA",
-        "AUTOMATION"
-      ],
-      "pictureUrl": "https://images.apifyusercontent.com/zhP3l7C1wr-x1XlROKTK3j8Mjto3vFn96axXWzNeL0A/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vdG5CVmp0M0NYbWNVckVFM0wtYWN0b3ItME1mZXlTRDBnZEwwZzh5V1QtQWdEdTlZNUtLVy1sb2dvLnBuZw.webp",
-      "url": "https://apify.com/xyrelith-data/vimeo-channel-creator-and-video-metadata-extractor",
-      "stats": {
-        "totalUsers": 2
-      },
-      "pricing": null,
-      "readmeSummary": "",
-      "successRate": null,
       "popularity": 2
     },
     {
