@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T17:19:00.044Z",
+  "generatedAt": "2026-11-01T17:53:48.269Z",
   "orgCount": 4,
-  "actorCount": 240,
+  "actorCount": 247,
   "actors": [
     {
       "id": "vexaloom-labs~linkedin-people-search-by-name-with-company",
@@ -21868,6 +21868,26 @@
       "popularity": 101
     },
     {
+      "id": "xyrelith-data~99designs-designer-portfolio-and-stats-finder",
+      "actorId": "xMbLYZK0HsLPDk2xn",
+      "title": "99designs Designer Portfolio & Stats Finder",
+      "description": "Browse 99designs designer profiles by keyword and category, or fetch specific designers by URL or ID, with experience level, portfolio stats, and contest record.",
+      "categories": [
+        "JOBS",
+        "LEAD_GENERATION",
+        "AUTOMATION"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/8Vou0-c1CFLh3FgNgtgevmsT3BTpG5i79zIILkkbZFM/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vdG5CVmp0M0NYbWNVckVFM0wtYWN0b3IteE1iTFlaSzBIc0xQRGsyeG4tdTFzVjBNa25MVC1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/xyrelith-data/99designs-designer-portfolio-and-stats-finder",
+      "stats": {
+        "totalUsers": 2
+      },
+      "pricing": null,
+      "readmeSummary": "",
+      "successRate": null,
+      "popularity": 2
+    },
+    {
       "id": "nimbryxo-studio~facebook-public-follower-and-following-snapshot",
       "actorId": "ki8WyzulpUxTuJFkV",
       "title": "Facebook Public Follower & Following Snapshot Tool",
@@ -21966,6 +21986,26 @@
       "popularity": 2
     },
     {
+      "id": "xyrelith-data~freelancermap-it-projects-and-freelancer-finder",
+      "actorId": "PZaEPJPMb3jko1X4z",
+      "title": "Freelancermap IT Projects & Freelancer Finder",
+      "description": "Search freelancermap.com IT freelance projects and freelancer profiles by category, workplace type, contract type, location, and skills, or fetch full detail by URL.",
+      "categories": [
+        "JOBS",
+        "LEAD_GENERATION",
+        "AUTOMATION"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/DouIY0_-4GMsXm9HntpkBcb_X2jflpegS6h0SyMmBiM/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vdG5CVmp0M0NYbWNVckVFM0wtYWN0b3ItUFphRVBKUE1iM2prbzFYNHotdFVsaHRQeXJYVC1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/xyrelith-data/freelancermap-it-projects-and-freelancer-finder",
+      "stats": {
+        "totalUsers": 2
+      },
+      "pricing": null,
+      "readmeSummary": "",
+      "successRate": null,
+      "popularity": 2
+    },
+    {
       "id": "nimbryxo-studio~google-ads-advertiser-creative-history-scraper",
       "actorId": "9wEoeBWrpFtgDeTGz",
       "title": "Google Ads Advertiser Creative History Scraper",
@@ -22061,6 +22101,106 @@
       },
       "readmeSummary": "",
       "successRate": 100,
+      "popularity": 2
+    },
+    {
+      "id": "xyrelith-data~new-york-dos-business-entity-registry-lookup",
+      "actorId": "z5kjwPgX5t6AcMwCj",
+      "title": "New York DOS Business Entity Registry Lookup",
+      "description": "Search New York's free public business entity registry by name, DOS ID number, registered agent, county, entity type, jurisdiction, city, or officer name, with formation date and address details.",
+      "categories": [
+        "AUTOMATION",
+        "LEAD_GENERATION",
+        "DEVELOPER_TOOLS"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/7-hFe48vIWX7uMRPPreTELlw6x3MN_bTweGGzvIapNY/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vdG5CVmp0M0NYbWNVckVFM0wtYWN0b3ItejVrandQZ1g1dDZBY013Q2otMWFyWEx6TExtMS1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/xyrelith-data/new-york-dos-business-entity-registry-lookup",
+      "stats": {
+        "totalUsers": 2
+      },
+      "pricing": null,
+      "readmeSummary": "",
+      "successRate": null,
+      "popularity": 2
+    },
+    {
+      "id": "xyrelith-data~stockx-market-price-and-sales-history-finder",
+      "actorId": "Yhm8OsBrdtdtfG6wk",
+      "title": "StockX Market Price & Sales History Finder",
+      "description": "Get StockX lowest ask, highest bid, last sale, and recent sales history for sneakers, streetwear, watches, and collectibles, by search, brand, category, or product slug.",
+      "categories": [
+        "ECOMMERCE",
+        "AUTOMATION",
+        "DEVELOPER_TOOLS"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/Su2R3lnesZRpWDkN9f5J1nXoLtZQzi_IqPjrJ69b7gA/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vdG5CVmp0M0NYbWNVckVFM0wtYWN0b3ItWWhtOE9zQnJkdGR0Zkc2d2stTFRtaDJiSUFBcC1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/xyrelith-data/stockx-market-price-and-sales-history-finder",
+      "stats": {
+        "totalUsers": 2
+      },
+      "pricing": null,
+      "readmeSummary": "",
+      "successRate": null,
+      "popularity": 2
+    },
+    {
+      "id": "xyrelith-data~tor-hidden-service-crawler-and-contact-extractor",
+      "actorId": "OL8Hv3EeydbTSbCFR",
+      "title": "Tor Hidden Service Crawler & Contact Extractor",
+      "description": "Crawl Tor .onion sites by URL or keyword search and pull emails, phone numbers, crypto wallet addresses, social handles, and exposed API keys from each page.",
+      "categories": [
+        "LEAD_GENERATION",
+        "AUTOMATION",
+        "DEVELOPER_TOOLS"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/c_sNqPKbRulC1GVRDIojfVpWZgIJMrcQU7dz8AEQP9A/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vdG5CVmp0M0NYbWNVckVFM0wtYWN0b3ItT0w4SHYzRWV5ZGJUU2JDRlItQktSM3VBZDZSRC1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/xyrelith-data/tor-hidden-service-crawler-and-contact-extractor",
+      "stats": {
+        "totalUsers": 2
+      },
+      "pricing": null,
+      "readmeSummary": "",
+      "successRate": null,
+      "popularity": 2
+    },
+    {
+      "id": "xyrelith-data~udemy-course-catalog-and-rating-finder",
+      "actorId": "6ETWJXbi7VH2I7peO",
+      "title": "Udemy Course Catalog & Rating Finder",
+      "description": "Search Udemy courses by keyword, category, or instructor, with rating, subscriber count, price, curriculum size, and level filters.",
+      "categories": [
+        "DEVELOPER_TOOLS",
+        "AUTOMATION",
+        "AI"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/NID0FfGfyQ-qKDizV2yOf9rY4-DQiZNd-Hc8bczlVIM/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vdG5CVmp0M0NYbWNVckVFM0wtYWN0b3ItNkVUV0pYYmk3VkgySTdwZU8tcnRtUjBISTdaTS1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/xyrelith-data/udemy-course-catalog-and-rating-finder",
+      "stats": {
+        "totalUsers": 2
+      },
+      "pricing": null,
+      "readmeSummary": "",
+      "successRate": null,
+      "popularity": 2
+    },
+    {
+      "id": "xyrelith-data~vimeo-channel-creator-and-video-metadata-extractor",
+      "actorId": "0MfeySD0gdL0g8yWT",
+      "title": "Vimeo Channel, Creator & Video Metadata Extractor",
+      "description": "Get Vimeo video metadata from channels, creator uploads, specific video URLs, or Staff Picks, with views, likes, comments, duration, and uploader details.",
+      "categories": [
+        "VIDEOS",
+        "SOCIAL_MEDIA",
+        "AUTOMATION"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/zhP3l7C1wr-x1XlROKTK3j8Mjto3vFn96axXWzNeL0A/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vdG5CVmp0M0NYbWNVckVFM0wtYWN0b3ItME1mZXlTRDBnZEwwZzh5V1QtQWdEdTlZNUtLVy1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/xyrelith-data/vimeo-channel-creator-and-video-metadata-extractor",
+      "stats": {
+        "totalUsers": 2
+      },
+      "pricing": null,
+      "readmeSummary": "",
+      "successRate": null,
       "popularity": 2
     },
     {
