@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0b1412" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f1f0e9" media="(prefers-color-scheme: light)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='6' fill='%23d7a64a'/%3E%3Ccircle cx='28' cy='28' r='12' fill='none' stroke='%231a1307' stroke-width='5'/%3E%3Cpath d='m38 38 12 12' stroke='%231a1307' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <title>Scraper Finder Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b1412;
+      --bg-2: #0f1a17;
+      --panel: #111d19;
+      --text: #ece7da;
+      --muted: #a8b1a8;
+      --faint: #7c8b82;
+      --border: rgba(236, 231, 218, 0.14);
+      --border-strong: rgba(236, 231, 218, 0.27);
+      --accent: #d7a64a;
+      --display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        color-scheme: light;
+        --bg: #f1f0e9;
+        --bg-2: #e9e8df;
+        --panel: #faf9f3;
+        --text: #18231f;
+        --muted: #5d6a63;
+        --faint: #7e8a83;
+        --border: rgba(24, 35, 31, 0.14);
+        --border-strong: rgba(24, 35, 31, 0.28);
+        --accent: #8a5a12;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 14px/1.7 "Aptos", "Segoe UI Variable", "Segoe UI", system-ui, sans-serif;
+    }
+    main { width: min(780px, 100%); margin: 0 auto; padding: 40px 22px 60px; }
+    .top { display: flex; align-items: center; gap: 11px; margin-bottom: 34px; }
+    .mark { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 2px; background: var(--accent); color: #1a1307; }
+    .brand { font-family: var(--display); font-size: 20px; font-weight: 600; letter-spacing: -0.025em; }
+    .back { margin-left: auto; color: var(--muted); font-size: 11px; }
+    h1 {
+      max-width: 18ch;
+      margin: 0 0 6px;
+      font-family: var(--display);
+      font-size: clamp(34px, 6vw, 48px);
+      font-weight: 600;
+      line-height: 1;
+      letter-spacing: -0.04em;
+      text-wrap: balance;
+    }
+    h2 {
+      margin: 30px 0 8px;
+      font-family: var(--display);
+      font-size: 21px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+    p, li { color: var(--muted); }
+    p { max-width: 68ch; }
+    ul { max-width: 68ch; padding-left: 18px; }
+    li { margin: 5px 0; }
+    li::marker { color: var(--accent); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; text-underline-offset: 3px; }
+    .meta { color: var(--faint); font-size: 12px; }
+    .panel { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--border-strong); }
+    code { padding: 1px 5px; border: 1px solid var(--border); border-radius: 2px; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 0.9em; color: var(--text); }
+    footer { margin-top: 34px; padding-top: 16px; border-top: 1px solid var(--border); color: var(--faint); font-size: 10.5px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="top">
+      <span class="mark" aria-hidden="true">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+      </span>
+      <span class="brand">Scraper Finder</span>
+      <a class="back" href="index.html">Home</a>
+    </div>
+
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: October 31, 2026</p>
+
+    <div class="panel">
+      <p>Scraper Finder is a Chrome extension that helps you discover and run web data apps using your own Apify account.</p>
+
+      <h2>What is stored</h2>
+      <p>The extension stores the following locally in your browser:</p>
+      <ul>
+        <li>Your Apify API token, if you connect an account.</li>
+        <li>Your display preferences and catalog settings.</li>
+        <li>The active tab URL, used to suggest data apps for the current site.</li>
+        <li>Inputs, presets, run metadata, and result data you create.</li>
+        <li>A local cache of the public data app catalog.</li>
+      </ul>
+
+      <h2>What is sent</h2>
+      <ul>
+        <li><strong>To Apify:</strong> your token and run inputs are sent to <code>api.apify.com</code> when you validate your account, start a run, poll a run, fetch results, or create a schedule. Apify processes that data under its own privacy policy.</li>
+        <li><strong>To a remote org-list host:</strong> if you configure a remote org list URL, the extension sends a GET request to that URL to read the org list. No token or personal data is included.</li>
+        <li><strong>No analytics, advertising, tracking, or third-party servers.</strong> The extension does not sell or share data.</li>
+      </ul>
+
+      <h2>Permissions</h2>
+      <ul>
+        <li><strong>storage / unlimitedStorage:</strong> save settings, presets, cached catalog, and run history locally.</li>
+        <li><strong>tabs / activeTab:</strong> read the active tab URL so the extension can suggest relevant data apps.</li>
+        <li><strong>sidePanel:</strong> show the extension in Chrome's side panel.</li>
+        <li><strong>contextMenus:</strong> add "Find data apps for this page."</li>
+        <li><strong>notifications:</strong> notify you when a run finishes while the extension is in the background.</li>
+        <li><strong>Host permissions:</strong> call <code>api.apify.com</code> for public catalog data and user-authorized runs; read the org list from an allowed host.</li>
+      </ul>
+
+      <h2>Retention and deletion</h2>
+      <ul>
+        <li>Disconnect your Apify account to remove the token from local storage.</li>
+        <li>Use <strong>Settings → Clear cache</strong> to remove the catalog cache.</li>
+        <li>Use <strong>Recent runs → Clear history</strong> to remove local run metadata.</li>
+        <li>Delete presets individually from <strong>Saved presets</strong>.</li>
+        <li>Uninstalling the extension removes its local data.</li>
+      </ul>
+
+      <h2>Security</h2>
+      <p>The Apify token is stored in <code>chrome.storage.local</code> and is sent only to <code>api.apify.com</code>. No org token is embedded in the extension. Do not install modified copies from untrusted sources.</p>
+
+      <h2>Third-party services</h2>
+      <ul>
+        <li>Apify: <a href="https://apify.com/privacy-policy" target="_blank" rel="noopener noreferrer">https://apify.com/privacy-policy</a></li>
+      </ul>
+
+      <h2>Changes</h2>
+      <p>If this policy changes, the updated version will be published with the extension.</p>
+    </div>
+
+    <footer>Scraper Finder is an independent tool. Not affiliated with the websites it reads.</footer>
+  </main>
+</body>
+</html>
