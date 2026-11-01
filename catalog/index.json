@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T19:52:27.248Z",
+  "generatedAt": "2026-11-01T20:53:05.646Z",
   "orgCount": 4,
-  "actorCount": 249,
+  "actorCount": 250,
   "actors": [
     {
       "id": "vexaloom-labs~linkedin-people-search-by-name-with-company",
@@ -13909,6 +13909,97 @@
       "popularity": 102
     },
     {
+      "id": "dataspryva~sephora-catalog-price-and-rating-finder",
+      "actorId": "t515auZbFJrdZ5vdU",
+      "title": "Sephora Catalog Price & Rating Finder",
+      "description": "Search Sephora's product catalog by keyword, bestsellers, or new arrivals, filtered by rating, brand, and price, with merchandising flags, review counts, and images for every matching product.",
+      "categories": [
+        "ECOMMERCE",
+        "AUTOMATION",
+        "LEAD_GENERATION"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/gg2gsd4Ko2xVhzveEC4niQFX8dFupLMe4_JeWVvbDP0/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20venE4bEticEx6VGpHRGF5UEMtYWN0b3ItdDUxNWF1WmJGSnJkWjV2ZFUtdTBxaFlCbldMeC1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/dataspryva/sephora-catalog-price-and-rating-finder",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "lastRunStartedAt": "2026-11-01T20:12:22.294Z"
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-01T20:11:39.404Z",
+        "startedAt": "2026-11-01T20:11:39.404Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
+      "popularity": 102
+    },
+    {
       "id": "vexaloom-labs~shein-homepage-featured-products-scraper",
       "actorId": "DeYvCwCnIKlepvXdy",
       "title": "Shein Homepage Featured Products Scraper",
@@ -15099,7 +15190,7 @@
       "url": "https://apify.com/xyrelith-data/stockx-market-price-and-sales-history-finder",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 5,
+        "totalRuns": 6,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -15107,7 +15198,7 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-01T08:24:11.804Z",
+        "lastRunStartedAt": "2026-11-01T20:16:25.339Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
