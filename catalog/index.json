@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T21:51:31.439Z",
+  "generatedAt": "2026-11-01T22:52:42.326Z",
   "orgCount": 4,
   "actorCount": 251,
   "actors": [
@@ -8745,7 +8745,14 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-01T21:12:25.227Z"
+        "lastRunStartedAt": "2026-11-01T21:12:25.227Z",
+        "publicActorRunStats30Days": {
+          "ABORTED": 0,
+          "FAILED": 0,
+          "SUCCEEDED": 1,
+          "TIMED-OUT": 0,
+          "TOTAL": 1
+        }
       },
       "pricing": {
         "pricingModel": "PAY_PER_EVENT",
@@ -8811,7 +8818,7 @@
         "apifyMarginPercentage": 0.2
       },
       "readmeSummary": "## Hostelworld Property Ratings & Price Finder\n\nScrapes structured hostel and budget-accommodation data from Hostelworld to produce property-level and city-level records for search, comparison, and analysis. Operates in three modes: city search, direct property-page scraping, and a curated top-destinations listing. Supports date-aware pricing and availability by using check-in/check-out dates and guest count, and provides quality filters for minimum rating and maximum nightly price. For each property the Actor extracts metadata and source URLs, accommodation type, location details and GPS coordinates, overall rating and review count plus per-category rating breakdown (atmosphere, cleanliness, facilities, location, security, staff, value), nightly price with currency, amenities lists, room-type availability flags, distance-to-center, check-in/out times, descriptive text, property images, and a collection timestamp; fields missing on the source page are omitted from records. Data is read from public Hostelworld pages without requiring login.\n\n## Use cases\n\n- Budget travel planning: find highest-rated hostels in a city within a price ceiling  \n- Travel app development: power hostel comparison or trip-planning features with structured hostel data  \n- Price benchmarking: compare accommodation prices across destinations for specific travel dates  \n- Content research: gather hostel data for travel guides or blog posts  \n- Academic or market research: analyze hostel distribution, rating patterns, and pricing across cities",
-      "successRate": null,
+      "successRate": 100,
       "popularity": 102
     },
     {
@@ -12448,7 +12455,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/YI74XqGE0Phrk53gdti8xg7SutQqTHorcNcRIqJKK2E/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTkw0VGhnSXRBd2FvQmxmZlEtYWN0b3ItME9mUWEwVXU0WkEwcmh6eUwtczZyWFVJaUxieS1sb2dvLnBuZw.webp",
       "url": "https://apify.com/vexaloom-labs/paste-site-keyword-leak-finder-pastebin-gist",
       "stats": {
-        "totalBuilds": 1,
+        "totalBuilds": 2,
         "totalRuns": 1,
         "totalUsers": 2,
         "totalUsers7Days": 1,
@@ -12457,7 +12464,14 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-01T18:12:23.752Z"
+        "lastRunStartedAt": "2026-11-01T18:12:23.752Z",
+        "publicActorRunStats30Days": {
+          "ABORTED": 0,
+          "FAILED": 0,
+          "SUCCEEDED": 1,
+          "TIMED-OUT": 0,
+          "TOTAL": 1
+        }
       },
       "pricing": {
         "pricingModel": "PAY_PER_EVENT",
@@ -12523,7 +12537,7 @@
         "apifyMarginPercentage": 0.2
       },
       "readmeSummary": "",
-      "successRate": null,
+      "successRate": 100,
       "popularity": 102
     },
     {
@@ -14012,7 +14026,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/gg2gsd4Ko2xVhzveEC4niQFX8dFupLMe4_JeWVvbDP0/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20venE4bEticEx6VGpHRGF5UEMtYWN0b3ItdDUxNWF1WmJGSnJkWjV2ZFUtdTBxaFlCbldMeC1sb2dvLnBuZw.webp",
       "url": "https://apify.com/dataspryva/sephora-catalog-price-and-rating-finder",
       "stats": {
-        "totalBuilds": 1,
+        "totalBuilds": 2,
         "totalRuns": 1,
         "totalUsers": 2,
         "totalUsers7Days": 1,
@@ -15293,9 +15307,9 @@
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 1,
+          "SUCCEEDED": 2,
           "TIMED-OUT": 0,
-          "TOTAL": 1
+          "TOTAL": 2
         }
       },
       "pricing": {
@@ -16648,13 +16662,13 @@
       "pictureUrl": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/tnBVjt3CXmcUrEE3L-actor-OL8Hv3EeydbTSbCFR-BKR3uAd6RD-logo.png",
       "url": "https://apify.com/xyrelith-data/tor-hidden-service-crawler-and-contact-extractor",
       "stats": {
-        "totalBuilds": 1,
-        "totalRuns": 1,
+        "totalBuilds": 2,
+        "totalRuns": 2,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
         "totalUsers90Days": 1,
-        "lastRunStartedAt": "2026-11-01T16:12:23.656Z",
+        "lastRunStartedAt": "2026-11-01T22:49:24.003Z",
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
@@ -16729,7 +16743,7 @@
         "startedAt": "2026-11-01T16:11:45.378Z",
         "apifyMarginPercentage": 0.2
       },
-      "readmeSummary": "## Tor Hidden Service Crawler & Contact Extractor\n\nCrawls Tor .onion hidden services and extracts structured contact and forensic data for dark web analysis, including email addresses, phone numbers, cryptocurrency wallet addresses categorized by currency (Bitcoin, Ethereum, Monero, Litecoin, Bitcoin Cash, Ripple), social media handles (Twitter/X, Instagram, Telegram), and exposed API keys. Operates in three modes—crawling specified .onion seeds, searching dark web indexes by keyword, or combining discovery and crawl—performing link discovery, absolute URL resolution, and mapping of links that point to other .onion hosts. Crawl behavior supports configurable link-following depth and page-budget limits; extractors for each data type can be toggled independently. Produces per-page records containing page URL and source, page title, discovered links (with a subset of onion-to-onion links), detected contact items, categorized crypto wallet addresses, social handles and API key strings, keyword-presence indicators when applicable, and scrape timestamps; records omit empty fields. The actor performs Tor routing internally so no external Tor/proxy configuration is required.\n\n## Use cases\n\n- Threat intelligence: monitor hidden services for leaked credentials, stolen data, or mentions of an organization  \n- Brand protection: detect unauthorized use of brand names or products on dark web sites  \n- Security research: surface exposed API keys and wallet addresses on .onion sites  \n- OSINT investigations: map hidden-service link structures and collect contact information  \n- Cryptocurrency tracing: collect wallet addresses associated with specific dark web sites",
+      "readmeSummary": "## Onion Directory & Contact Metadata Scraper\n\nA metadata-focused scraper that aggregates and normalizes onion-directory listings and index-result metadata for v3 .onion services. It merges records from multiple directory sources by onion domain while preserving provenance, applies neutral category tagging and short descriptions, extracts structured contact metadata (PGP fingerprint/key ID/contact email, mailto/tel links, explicit social profile links), and can measure site liveness using a bundled Tor daemon by performing controlled root-domain checks. The Actor also supports a search mode that returns index-result metadata (titles, URLs, ranks, snippets, last-seen claims) from Ahmia; outputs are oriented around directory entries and search-result metadata rather than page bodies.\n\n## Use cases\n\n- Aggregating and deduplicating OnionTree, dark.fail and tor.taxi directory listings by v3 onion domain for directory consolidation.\n- Enriching threat-intelligence and OSINT pipelines with directory provenance, neutral category tags, short descriptions and structured contact metadata.\n- Performing catalog or directory quality checks across multiple onion-directory sources.\n- Conducting lawful security research and triage on onion-service listings without harvesting page content.\n- Measuring service reachability and response conditions for onion domains via Tor-based liveness checks.\n- Harvesting Ahmia search index metadata (titles, URLs, ranks, snippets, last-seen claims) for topical discovery and monitoring.",
       "successRate": 100,
       "popularity": 102
     },
