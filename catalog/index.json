@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T19:14:26.118Z",
+  "generatedAt": "2026-11-02T20:06:04.709Z",
   "orgCount": 4,
   "actorCount": 265,
   "actors": [
@@ -9723,7 +9723,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/ZCMpUp8V5PEJRwt7mTHixEpgQXmP2ad7ILz0q-ro6_o/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20venE4bEticEx6VGpHRGF5UEMtYWN0b3ItTUxaWFFvVlJ1c3gzY0d2bTUtZUtqYkt2MzR0SS1sb2dvLnBuZw.webp",
       "url": "https://apify.com/dataspryva/houzz-pro-directory-finder-by-city-and-category",
       "stats": {
-        "totalBuilds": 1,
+        "totalBuilds": 2,
         "totalRuns": 1,
         "totalUsers": 2,
         "totalUsers7Days": 1,
@@ -9732,7 +9732,14 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-02T16:12:25.030Z"
+        "lastRunStartedAt": "2026-11-02T16:12:25.030Z",
+        "publicActorRunStats30Days": {
+          "ABORTED": 0,
+          "FAILED": 0,
+          "SUCCEEDED": 1,
+          "TIMED-OUT": 0,
+          "TOTAL": 1
+        }
       },
       "pricing": {
         "pricingModel": "PAY_PER_EVENT",
@@ -9798,7 +9805,7 @@
         "apifyMarginPercentage": 0.2
       },
       "readmeSummary": "",
-      "successRate": null,
+      "successRate": 100,
       "popularity": 102
     },
     {
