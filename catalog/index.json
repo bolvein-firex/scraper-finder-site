@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T21:56:58.452Z",
+  "generatedAt": "2026-11-02T22:56:42.176Z",
   "orgCount": 4,
-  "actorCount": 266,
+  "actorCount": 267,
   "actors": [
     {
       "id": "vexaloom-labs~linkedin-people-search-by-name-with-company",
@@ -3921,6 +3921,97 @@
       },
       "readmeSummary": "",
       "successRate": 100,
+      "popularity": 102
+    },
+    {
+      "id": "dataspryva~chinese-b2b-supplier-and-product-finder",
+      "actorId": "qhABZwuIp7K1Y60yB",
+      "title": "Chinese B2B Supplier & Product Finder by Province",
+      "description": "Search Made-in-China.com products and suppliers by keyword or category, with province, business type, certification, price, MOQ and trust-badge filters for sourcing and lead generation.",
+      "categories": [
+        "ECOMMERCE",
+        "LEAD_GENERATION",
+        "AUTOMATION"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/mj_bp_6iaED4ELZmnkCrDOxBQxh5KdwLKUwGLkh_Er8/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20venE4bEticEx6VGpHRGF5UEMtYWN0b3ItcWhBQlp3dUlwN0sxWTYweUItYnhjV2g1ejFrTy1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/dataspryva/chinese-b2b-supplier-and-product-finder",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "lastRunStartedAt": "2026-11-02T22:12:25.440Z"
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-02T22:11:39.983Z",
+        "startedAt": "2026-11-02T22:11:39.983Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
       "popularity": 102
     },
     {
@@ -9729,9 +9820,9 @@
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 1,
+          "SUCCEEDED": 2,
           "TIMED-OUT": 0,
-          "TOTAL": 1
+          "TOTAL": 2
         }
       },
       "pricing": {
@@ -16677,9 +16768,9 @@
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 2,
+          "SUCCEEDED": 3,
           "TIMED-OUT": 0,
-          "TOTAL": 2
+          "TOTAL": 3
         }
       },
       "pricing": {
