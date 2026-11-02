@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T07:45:15.609Z",
+  "generatedAt": "2026-11-02T09:24:42.811Z",
   "orgCount": 4,
-  "actorCount": 258,
+  "actorCount": 259,
   "actors": [
     {
       "id": "vexaloom-labs~linkedin-people-search-by-name-with-company",
@@ -1182,6 +1182,97 @@
       },
       "readmeSummary": "## 99designs Designer Portfolio & Stats Finder\n\nA scraper for 99designs that finds designers in the public directory or opens exact designer profiles to extract structured per-designer records: identity and tier, join date, portfolio metadata and images, contest and one-to-one project statistics, client review ratings and counts, availability and online status in search results, published responsiveness score, listed languages and certifications, and basic profile text. Supports directory search by keyword combined with multidimensional filters (design category, experience level, language, industry, certification), exact-profile retrieval by identifiers or URLs, de-duplication of results, configurable profile-depth and portfolio depth (slice of designs per designer with image, likes, date, category/industry and link), and comparative metrics for contests won, runner-up placements, repeat clients, total designs and likes. Outputs a structured dataset of designer records with timestamps and record markers suitable for sourcing, vetting and analytics.\n\n## Use cases\n\n- Designer sourcing: shortlist designers by category, level and language and compare contest and repeat-client metrics.  \n- Vendor vetting: open a known profile to inspect rating, availability and portfolio before engagement.  \n- Market research: measure counts and portfolio depth across categories, industries or certifications and compare designer metrics.  \n- Portfolio tracking: re-scrape saved designer lists to follow new designs, likes and review growth over time.",
       "successRate": 100,
+      "popularity": 102
+    },
+    {
+      "id": "vexaloom-labs~ahrefs-domain-rating-backlinks-and-traffic-lookup",
+      "actorId": "gUzxxjRtJtq8KiIiG",
+      "title": "Ahrefs Domain Rating, Backlinks & Traffic Lookup",
+      "description": "Look up a domain's public Ahrefs Domain Rating, linking-website count, global rank, and estimated organic traffic, with a mode to fetch just authority or just backlink metrics.",
+      "categories": [
+        "SEO_TOOLS",
+        "AUTOMATION",
+        "DEVELOPER_TOOLS"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/eU5BM34EbbXNMaUWuELOhxxHzsSu4gojibg_t0zL5gg/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTkw0VGhnSXRBd2FvQmxmZlEtYWN0b3ItZ1V6eHhqUnRKdHE4S2lJaUctUGRSU0VodXlDZy1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/vexaloom-labs/ahrefs-domain-rating-backlinks-and-traffic-lookup",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "lastRunStartedAt": "2026-11-02T09:12:25.943Z",
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-02T09:12:13.002Z",
+        "startedAt": "2026-11-02T09:12:13.002Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
       "popularity": 102
     },
     {
@@ -2473,22 +2564,22 @@
       "pictureUrl": "https://images.apifyusercontent.com/GSKSQfIg9VWWBdqVtP45Y0TZdw4j8JnZ0Momcuhg-rY/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItZWpKZkFrdmN4Y3Rpc09oZUctdFM0N1EwU0dobS1sb2dvLnBuZw.webp",
       "url": "https://apify.com/nimbryxo-studio/bing-organic-search-results-scraper",
       "stats": {
-        "totalBuilds": 1,
-        "totalRuns": 5,
+        "totalBuilds": 2,
+        "totalRuns": 6,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
         "totalUsers90Days": 1,
-        "lastRunStartedAt": "2026-10-31T14:00:42.645Z",
+        "lastRunStartedAt": "2026-11-01T11:16:29.215Z",
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 3,
+          "SUCCEEDED": 4,
           "TIMED-OUT": 0,
-          "TOTAL": 3
+          "TOTAL": 4
         }
       },
       "pricing": {
@@ -8926,7 +9017,7 @@
       "url": "https://apify.com/xyrelith-data/hostelworld-property-ratings-and-price-finder",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 2,
+        "totalRuns": 3,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -8934,7 +9025,7 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-02T00:56:34.030Z",
+        "lastRunStartedAt": "2026-11-02T07:45:15.605Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
@@ -11852,22 +11943,22 @@
       "pictureUrl": "https://images.apifyusercontent.com/rStcV2zkD8puTsOvNyzyZJYr6NdEbdGmB1qSh07Ovs8/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItSlI5aU4wWU1ZUVhDZkthbjktam1HdDdqR29mNy1sb2dvLnBuZw.webp",
       "url": "https://apify.com/nimbryxo-studio/naver-blog-post-search-and-full-content-extractor",
       "stats": {
-        "totalBuilds": 1,
-        "totalRuns": 6,
+        "totalBuilds": 2,
+        "totalRuns": 7,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
         "totalUsers90Days": 1,
-        "lastRunStartedAt": "2026-10-31T15:16:26.660Z",
+        "lastRunStartedAt": "2026-11-01T15:18:25.950Z",
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 4,
+          "SUCCEEDED": 5,
           "TIMED-OUT": 0,
-          "TOTAL": 4
+          "TOTAL": 5
         }
       },
       "pricing": {
@@ -20163,22 +20254,22 @@
       "pictureUrl": "https://images.apifyusercontent.com/0PnRnCipN4jcOtInt7EkBA_BQZl33KbJfdfkyhKVRVo/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItdkJaS1VnQklHRWRLVFk1bWktQ2FnVUJIWUFMVi1sb2dvLnBuZw.webp",
       "url": "https://apify.com/nimbryxo-studio/workday-careers-site-job-listings-extractor",
       "stats": {
-        "totalBuilds": 1,
-        "totalRuns": 3,
+        "totalBuilds": 2,
+        "totalRuns": 4,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
         "totalUsers90Days": 1,
-        "lastRunStartedAt": "2026-10-31T16:14:31.003Z",
+        "lastRunStartedAt": "2026-11-01T16:16:31.119Z",
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 3,
+          "SUCCEEDED": 4,
           "TIMED-OUT": 0,
-          "TOTAL": 3
+          "TOTAL": 4
         }
       },
       "pricing": {
@@ -20851,8 +20942,8 @@
       "pictureUrl": "https://images.apifyusercontent.com/-Jl8tQxqNpfta79rI9_Mf2ABF7-Q6_-p7zza0f-RZS4/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItbWlwZWxYRjRzVHMySHpnZ2EtYlJxUG5qVjFIby1sb2dvLnBuZw.webp",
       "url": "https://apify.com/nimbryxo-studio/x-trends-lookup-by-country-city-and-woeid",
       "stats": {
-        "totalBuilds": 1,
-        "totalRuns": 5,
+        "totalBuilds": 2,
+        "totalRuns": 6,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -20860,13 +20951,13 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-10-31T20:16:24.052Z",
+        "lastRunStartedAt": "2026-11-01T20:16:28.803Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 4,
+          "SUCCEEDED": 5,
           "TIMED-OUT": 0,
-          "TOTAL": 4
+          "TOTAL": 5
         }
       },
       "pricing": {
@@ -22224,22 +22315,22 @@
       "pictureUrl": "https://images.apifyusercontent.com/7lg3VD2a3vsfcdMiNhDNlqb0Njt-kTDK1SiCTYfq14c/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItR25MdlRxOG0zaTY0NDRuVWUtaGhvTzBYUG40dy1sb2dvLnBuZw.webp",
       "url": "https://apify.com/nimbryxo-studio/youtube-trending-feed-extractor-by-category",
       "stats": {
-        "totalBuilds": 1,
-        "totalRuns": 6,
+        "totalBuilds": 2,
+        "totalRuns": 7,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
         "totalUsers90Days": 1,
-        "lastRunStartedAt": "2026-11-01T00:16:27.803Z",
+        "lastRunStartedAt": "2026-11-02T00:18:27.870Z",
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 5,
+          "SUCCEEDED": 6,
           "TIMED-OUT": 0,
-          "TOTAL": 5
+          "TOTAL": 6
         }
       },
       "pricing": {
