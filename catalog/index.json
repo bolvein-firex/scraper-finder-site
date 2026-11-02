@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T03:07:27.716Z",
+  "generatedAt": "2026-11-02T04:16:39.637Z",
   "orgCount": 4,
-  "actorCount": 255,
+  "actorCount": 256,
   "actors": [
     {
       "id": "vexaloom-labs~linkedin-people-search-by-name-with-company",
@@ -10067,6 +10067,97 @@
       "popularity": 102
     },
     {
+      "id": "vexaloom-labs~lever-job-board-postings-by-company-slug",
+      "actorId": "YMM8oKkDKWReRyR5Z",
+      "title": "Lever Job Board Postings by Company Slug",
+      "description": "Pull open job postings from one or more Lever.co company boards, or fetch specific postings by ID, with location, team, salary range, requirements, and apply links, filterable by team, location, and commitment type.",
+      "categories": [
+        "JOBS",
+        "AUTOMATION",
+        "DEVELOPER_TOOLS"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/BgQQjkZCr_HsDcEPa4VSmNNqwdhsQ6eER-Ek4wvrhB4/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTkw0VGhnSXRBd2FvQmxmZlEtYWN0b3ItWU1NOG9La0RLV1JlUnlSNVotZVY4OGpKc3htYi1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/vexaloom-labs/lever-job-board-postings-by-company-slug",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "lastRunStartedAt": "2026-11-02T04:12:22.993Z"
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-02T04:11:39.554Z",
+        "startedAt": "2026-11-02T04:11:39.554Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
+      "popularity": 102
+    },
+    {
       "id": "nimbryxo-studio~linkedin-activity-feed-scraper-with-engagement",
       "actorId": "CIxdgqOHBfl4nTwzB",
       "title": "LinkedIn Activity Feed Scraper with Engagement Filters",
@@ -18027,9 +18118,9 @@
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 1,
+          "SUCCEEDED": 2,
           "TIMED-OUT": 0,
-          "TOTAL": 1
+          "TOTAL": 2
         }
       },
       "pricing": {
