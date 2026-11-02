@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T05:23:59.936Z",
+  "generatedAt": "2026-11-02T07:45:15.609Z",
   "orgCount": 4,
-  "actorCount": 257,
+  "actorCount": 258,
   "actors": [
     {
       "id": "vexaloom-labs~linkedin-people-search-by-name-with-company",
@@ -3735,7 +3735,7 @@
       "url": "https://apify.com/xyrelith-data/czech-jobs-cz-postings-salary-and-brigady-finder",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 1,
+        "totalRuns": 2,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -3743,7 +3743,7 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-02T02:12:23.430Z",
+        "lastRunStartedAt": "2026-11-02T05:25:03.369Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
@@ -3815,7 +3815,7 @@
         "startedAt": "2026-11-02T02:11:39.118Z",
         "apifyMarginPercentage": 0.2
       },
-      "readmeSummary": "## Czech Jobs.cz Postings, Salary & Brigady Finder\n\nA scraper that harvests live job listings from the public jobs.cz search pages and returns structured Czech job-market records. It supports four search modes (keyword search, location browse, category/profession browse, and the separate brigády board for part-time/temp/student gigs) and applies rich filters such as minimum salary or hourly rate, posted-within window, employment/contract type, education level, required languages, home-office arrangement, suitable-for groups, employer type, and search radius. The Actor parses salary labels into numeric minimum/maximum values in CZK and identifies salary period (monthly vs hourly), normalizes posting date labels to ISO dates when derivable, preserves raw labels and promotional/status badges, extracts listing tags (e.g., home-office, response-time), and captures employer metadata (name, logo link, review summary and review-page link), canonical job URL, unique ad identifier, title and location text, and a scrape timestamp. The mechanism is HTTP-only scraping of live public search results with combinable axes (e.g., narrowing by city or profession) and special handling for the brigády board.\n\n## Use cases\n\n- Salary benchmarking by profession or region across the Czech market\n- Labor-market research measuring job volume by category and city over time\n- Recruitment intelligence to monitor competitor job postings and hiring velocity\n- Feeding structured Czech job listings into HR tech or job aggregator products\n- Surfacing city-specific, English-friendly, or expat-targeted roles for relocation services",
+      "readmeSummary": "## Czech Jobs.cz Postings, Salary & Brigady Finder\n\nA scraper for the Czech jobs.cz job board that extracts structured job-market data: supports keyword searches, city/region browsing, profession/category browsing, the separate brigády (part-time/temporary/student/seasonal) board, and direct scraping of job/search/employer URLs; returns job identifiers, canonical URLs, job titles, employer names, city locations, visible salary labels plus a parsed structured salary range (including machine-published but hidden ranges), full job descriptions in plain text and HTML, employment and contract details, education and language requirements, categories/professions, benefits, posting/update/expiry dates, remote-work classification, employer logo, employer review metrics from Atmoskop, and any public contact name/phone shown on the listing. Technical behavior includes reading the site’s current search JSON plus legacy pages for enrichment, optional per-job page enrichment versus list-only runs, rich filtering (salary/ hourly-rate floor, posted-within, employment type, contract type, education, languages, home-office arrangement, suitable-for groups, employer type, search radius), paced requests with rate-limited mirror retries for blocked legacy pages, and large-run handling up to 10,000 records with automatic query splitting and de-duplication.\n\n## Use cases\n\n- Salary benchmarking by profession, city or seniority  \n- Labor-market research measuring hiring volume by category and region  \n- Recruitment intelligence and competitor monitoring of open roles and posting velocity  \n- Feeding structured Czech job listings into job aggregators or HR tech products  \n- Surface English-friendly and remote-eligible roles for relocation and expat services  \n- Collect part-time/brigády shifts by city and minimum hourly rate",
       "successRate": 100,
       "popularity": 102
     },
@@ -10086,7 +10086,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/BgQQjkZCr_HsDcEPa4VSmNNqwdhsQ6eER-Ek4wvrhB4/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTkw0VGhnSXRBd2FvQmxmZlEtYWN0b3ItWU1NOG9La0RLV1JlUnlSNVotZVY4OGpKc3htYi1sb2dvLnBuZw.webp",
       "url": "https://apify.com/vexaloom-labs/lever-job-board-postings-by-company-slug",
       "stats": {
-        "totalBuilds": 1,
+        "totalBuilds": 2,
         "totalRuns": 1,
         "totalUsers": 2,
         "totalUsers7Days": 1,
@@ -11254,6 +11254,97 @@
       },
       "readmeSummary": "",
       "successRate": 100,
+      "popularity": 102
+    },
+    {
+      "id": "dataspryva~meetup-and-lu-ma-event-finder-by-city-group",
+      "actorId": "KE35NpydwUThD8CQf",
+      "title": "Meetup & Lu.ma Event Finder by City, Group & Calendar",
+      "description": "Search, browse, or look up events on Meetup and Lu.ma by city, group, or calendar: dates, venue, organizer, attendee count, photo and RSVP status from one actor and input shape.",
+      "categories": [
+        "AUTOMATION",
+        "LEAD_GENERATION",
+        "SOCIAL_MEDIA"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/mvwyD5_Hu5QNGGdiRcpOMTOLMud9lSr7JehB3c0SIKQ/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20venE4bEticEx6VGpHRGF5UEMtYWN0b3ItS0UzNU5weWR3VVRoRDhDUWYtRzV0QWFKenZpbi1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/dataspryva/meetup-and-lu-ma-event-finder-by-city-group",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "lastRunStartedAt": "2026-11-02T06:12:26.846Z"
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-02T06:11:39.974Z",
+        "startedAt": "2026-11-02T06:11:39.974Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
       "popularity": 102
     },
     {
@@ -17132,12 +17223,12 @@
       "url": "https://apify.com/xyrelith-data/tor-hidden-service-crawler-and-contact-extractor",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 2,
+        "totalRuns": 3,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
         "totalUsers90Days": 1,
-        "lastRunStartedAt": "2026-11-01T22:49:24.003Z",
+        "lastRunStartedAt": "2026-11-02T07:35:51.700Z",
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
@@ -18799,7 +18890,7 @@
       "url": "https://apify.com/xyrelith-data/vimeo-channel-creator-and-video-metadata-extractor",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 3,
+        "totalRuns": 4,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -18807,7 +18898,7 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-01T13:30:52.371Z",
+        "lastRunStartedAt": "2026-11-02T06:12:29.567Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
@@ -20563,7 +20654,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/HPHFUhLh6aitwFLCPR2J6JIPKfR3n7poT4I8pgQpiDc/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20venE4bEticEx6VGpHRGF5UEMtYWN0b3ItNDI2WlVGY2U5SlJHYWo0TWMtbjVySmd6cGNkYi1sb2dvLnBuZw.webp",
       "url": "https://apify.com/dataspryva/x-community-activity-and-member-finder",
       "stats": {
-        "totalBuilds": 1,
+        "totalBuilds": 2,
         "totalRuns": 1,
         "totalUsers": 2,
         "totalUsers7Days": 1,
@@ -20572,7 +20663,14 @@
         "lastRunStartedAt": "2026-11-02T01:12:26.032Z",
         "actorReviewCount": 0,
         "actorReviewRating": 0,
-        "bookmarkCount": 0
+        "bookmarkCount": 0,
+        "publicActorRunStats30Days": {
+          "ABORTED": 0,
+          "FAILED": 0,
+          "SUCCEEDED": 1,
+          "TIMED-OUT": 0,
+          "TOTAL": 1
+        }
       },
       "pricing": {
         "pricingModel": "PAY_PER_EVENT",
@@ -20638,7 +20736,7 @@
         "apifyMarginPercentage": 0.2
       },
       "readmeSummary": "",
-      "successRate": null,
+      "successRate": 100,
       "popularity": 102
     },
     {
