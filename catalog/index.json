@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T04:16:39.637Z",
+  "generatedAt": "2026-11-02T05:23:59.936Z",
   "orgCount": 4,
-  "actorCount": 256,
+  "actorCount": 257,
   "actors": [
     {
       "id": "vexaloom-labs~linkedin-people-search-by-name-with-company",
@@ -3734,7 +3734,7 @@
       "pictureUrl": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/tnBVjt3CXmcUrEE3L-actor-x1vYR6ixAeVfHRs61-1aBMwyq4uw-logo.png",
       "url": "https://apify.com/xyrelith-data/czech-jobs-cz-postings-salary-and-brigady-finder",
       "stats": {
-        "totalBuilds": 1,
+        "totalBuilds": 2,
         "totalRuns": 1,
         "totalUsers": 2,
         "totalUsers7Days": 1,
@@ -3743,7 +3743,14 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-02T02:12:23.430Z"
+        "lastRunStartedAt": "2026-11-02T02:12:23.430Z",
+        "publicActorRunStats30Days": {
+          "ABORTED": 0,
+          "FAILED": 0,
+          "SUCCEEDED": 1,
+          "TIMED-OUT": 0,
+          "TOTAL": 1
+        }
       },
       "pricing": {
         "pricingModel": "PAY_PER_EVENT",
@@ -3809,7 +3816,7 @@
         "apifyMarginPercentage": 0.2
       },
       "readmeSummary": "## Czech Jobs.cz Postings, Salary & Brigady Finder\n\nA scraper that harvests live job listings from the public jobs.cz search pages and returns structured Czech job-market records. It supports four search modes (keyword search, location browse, category/profession browse, and the separate brigády board for part-time/temp/student gigs) and applies rich filters such as minimum salary or hourly rate, posted-within window, employment/contract type, education level, required languages, home-office arrangement, suitable-for groups, employer type, and search radius. The Actor parses salary labels into numeric minimum/maximum values in CZK and identifies salary period (monthly vs hourly), normalizes posting date labels to ISO dates when derivable, preserves raw labels and promotional/status badges, extracts listing tags (e.g., home-office, response-time), and captures employer metadata (name, logo link, review summary and review-page link), canonical job URL, unique ad identifier, title and location text, and a scrape timestamp. The mechanism is HTTP-only scraping of live public search results with combinable axes (e.g., narrowing by city or profession) and special handling for the brigády board.\n\n## Use cases\n\n- Salary benchmarking by profession or region across the Czech market\n- Labor-market research measuring job volume by category and city over time\n- Recruitment intelligence to monitor competitor job postings and hiring velocity\n- Feeding structured Czech job listings into HR tech or job aggregator products\n- Surfacing city-specific, English-friendly, or expat-targeted roles for relocation services",
-      "successRate": null,
+      "successRate": 100,
       "popularity": 102
     },
     {
@@ -10088,7 +10095,14 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-02T04:12:22.993Z"
+        "lastRunStartedAt": "2026-11-02T04:12:22.993Z",
+        "publicActorRunStats30Days": {
+          "ABORTED": 0,
+          "FAILED": 0,
+          "SUCCEEDED": 1,
+          "TIMED-OUT": 0,
+          "TOTAL": 1
+        }
       },
       "pricing": {
         "pricingModel": "PAY_PER_EVENT",
@@ -10154,7 +10168,7 @@
         "apifyMarginPercentage": 0.2
       },
       "readmeSummary": "",
-      "successRate": null,
+      "successRate": 100,
       "popularity": 102
     },
     {
@@ -12114,6 +12128,97 @@
         },
         "createdAt": "2026-11-01T13:11:33.144Z",
         "startedAt": "2026-11-01T13:11:33.144Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
+      "popularity": 102
+    },
+    {
+      "id": "nimbryxo-studio~ncaa-team-and-player-leaderboards-polls",
+      "actorId": "ZD3dF6oZeDkYaf2hk",
+      "title": "NCAA Team & Player Leaderboards, Polls & Standings",
+      "description": "Pull NCAA team and individual player statistical leaderboards, national ranking polls (AP, NET, RPI, coaches polls, and more), and conference standings for 14 college sports across Division I, II, and III.",
+      "categories": [
+        "AUTOMATION",
+        "DEVELOPER_TOOLS",
+        "NEWS"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/sBKtaZSKI-BRuQ2X7pgV9Jm_8hFF3TJclLGa0tyUjfI/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItWkQzZEY2b1plRGtZYWYyaGstam82T2ViV1J0MS1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/nimbryxo-studio/ncaa-team-and-player-leaderboards-polls",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "lastRunStartedAt": "2026-11-02T05:12:25.454Z"
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-02T05:11:35.378Z",
+        "startedAt": "2026-11-02T05:11:35.378Z",
         "apifyMarginPercentage": 0.2
       },
       "readmeSummary": "",
@@ -18106,12 +18211,12 @@
       "url": "https://apify.com/xyrelith-data/udemy-course-catalog-and-rating-finder",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 4,
+        "totalRuns": 5,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
         "totalUsers90Days": 1,
-        "lastRunStartedAt": "2026-11-02T01:12:28.245Z",
+        "lastRunStartedAt": "2026-11-02T05:16:14.355Z",
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
