@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T22:56:42.176Z",
+  "generatedAt": "2026-11-02T23:51:12.887Z",
   "orgCount": 4,
   "actorCount": 267,
   "actors": [
@@ -23821,7 +23821,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/OL-AwNUJa_GKHIsd2pBp91bOsN3N-fJPkyEjd09j8nU/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTkw0VGhnSXRBd2FvQmxmZlEtYWN0b3ItdnhSU21nckc5bm9EUHcxQk0tVHA0SWNXbzJPMS1sb2dvLnBuZw.webp",
       "url": "https://apify.com/vexaloom-labs/ziprecruiter-job-search-results-and-salary-scraper",
       "stats": {
-        "totalBuilds": 1,
+        "totalBuilds": 2,
         "totalRuns": 1,
         "totalUsers": 2,
         "totalUsers7Days": 1,
