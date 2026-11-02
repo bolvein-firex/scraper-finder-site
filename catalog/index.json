@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T11:15:08.744Z",
+  "generatedAt": "2026-11-02T12:11:46.204Z",
   "orgCount": 4,
   "actorCount": 261,
   "actors": [
@@ -1589,7 +1589,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/eU5BM34EbbXNMaUWuELOhxxHzsSu4gojibg_t0zL5gg/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTkw0VGhnSXRBd2FvQmxmZlEtYWN0b3ItZ1V6eHhqUnRKdHE4S2lJaUctUGRSU0VodXlDZy1sb2dvLnBuZw.webp",
       "url": "https://apify.com/vexaloom-labs/ahrefs-domain-rating-backlinks-and-traffic-lookup",
       "stats": {
-        "totalBuilds": 1,
+        "totalBuilds": 2,
         "totalRuns": 1,
         "totalUsers": 2,
         "totalUsers7Days": 1,
@@ -1598,7 +1598,14 @@
         "lastRunStartedAt": "2026-11-02T09:12:25.943Z",
         "actorReviewCount": 0,
         "actorReviewRating": 0,
-        "bookmarkCount": 0
+        "bookmarkCount": 0,
+        "publicActorRunStats30Days": {
+          "ABORTED": 0,
+          "FAILED": 0,
+          "SUCCEEDED": 1,
+          "TIMED-OUT": 0,
+          "TOTAL": 1
+        }
       },
       "pricing": {
         "pricingModel": "PAY_PER_EVENT",
@@ -1664,7 +1671,7 @@
         "apifyMarginPercentage": 0.2
       },
       "readmeSummary": "",
-      "successRate": null,
+      "successRate": 100,
       "popularity": 102
     },
     {
