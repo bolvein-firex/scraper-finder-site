@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T15:12:26.356Z",
+  "generatedAt": "2026-11-02T16:18:53.864Z",
   "orgCount": 4,
-  "actorCount": 263,
+  "actorCount": 264,
   "actors": [
     {
       "id": "vexaloom-labs~linkedin-people-search-by-name-with-company",
@@ -9711,6 +9711,97 @@
       "popularity": 102
     },
     {
+      "id": "dataspryva~houzz-pro-directory-finder-by-city-and-category",
+      "actorId": "MLZXQoVRusx3cGvm5",
+      "title": "Houzz Pro Directory Finder by City & Category",
+      "description": "Find Houzz contractors, architects, and designers by city and category across 16 countries, with ratings, reviews, hires, services, license status, and location for each professional.",
+      "categories": [
+        "LEAD_GENERATION",
+        "REAL_ESTATE",
+        "AUTOMATION"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/ZCMpUp8V5PEJRwt7mTHixEpgQXmP2ad7ILz0q-ro6_o/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20venE4bEticEx6VGpHRGF5UEMtYWN0b3ItTUxaWFFvVlJ1c3gzY0d2bTUtZUtqYkt2MzR0SS1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/dataspryva/houzz-pro-directory-finder-by-city-and-category",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "lastRunStartedAt": "2026-11-02T16:12:25.030Z"
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-02T16:11:35.840Z",
+        "startedAt": "2026-11-02T16:11:35.840Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
+      "popularity": 102
+    },
+    {
       "id": "vexaloom-labs~human-like-website-pageview-traffic-simulator",
       "actorId": "0z2txuRp8mv5mNe3y",
       "title": "Human-Like Website Pageview Traffic Simulator",
@@ -10002,6 +10093,97 @@
       },
       "readmeSummary": "",
       "successRate": 100,
+      "popularity": 102
+    },
+    {
+      "id": "nimbryxo-studio~importyeti-us-importer-and-global-supplier-search",
+      "actorId": "Z6yBfXjhmwlemWc6w",
+      "title": "ImportYeti US Importer & Global Supplier Search",
+      "description": "Search ImportYeti by company name or product keyword to find US importers or their overseas suppliers, with country, address, lifetime shipment count, most recent shipment date, trademarks, and profile link.",
+      "categories": [
+        "ECOMMERCE",
+        "LEAD_GENERATION",
+        "AUTOMATION"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/ovGVbvGC0oqmlit2-qaMSaMsy-eULKj958JRHwtdREA/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItWjZ5QmZYamhtd2xlbVdjNnctUWJxSVhzOUU1OS1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/nimbryxo-studio/importyeti-us-importer-and-global-supplier-search",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "lastRunStartedAt": "2026-11-02T15:12:25.841Z"
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-02T15:11:38.594Z",
+        "startedAt": "2026-11-02T15:11:38.594Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
       "popularity": 102
     },
     {
@@ -13049,7 +13231,7 @@
       "url": "https://apify.com/xyrelith-data/new-york-dos-business-entity-registry-lookup",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 5,
+        "totalRuns": 6,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -13057,7 +13239,7 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-01T15:14:22.763Z",
+        "lastRunStartedAt": "2026-11-02T15:14:26.041Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
@@ -17564,12 +17746,12 @@
       "url": "https://apify.com/xyrelith-data/tor-hidden-service-crawler-and-contact-extractor",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 4,
+        "totalRuns": 5,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
         "totalUsers90Days": 1,
-        "lastRunStartedAt": "2026-11-02T14:08:19.207Z",
+        "lastRunStartedAt": "2026-11-02T16:12:28.616Z",
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
@@ -24616,96 +24798,6 @@
       },
       "readmeSummary": "",
       "successRate": 71,
-      "popularity": 1
-    },
-    {
-      "id": "nimbryxo-studio~importyeti-us-importer-and-global-supplier-search",
-      "actorId": "Z6yBfXjhmwlemWc6w",
-      "title": "ImportYeti US Importer & Global Supplier Search",
-      "description": "Search ImportYeti by company name or product keyword to find US importers or their overseas suppliers, with country, address, lifetime shipment count, most recent shipment date, trademarks, and profile link.",
-      "categories": [
-        "ECOMMERCE",
-        "LEAD_GENERATION",
-        "AUTOMATION"
-      ],
-      "pictureUrl": "https://images.apifyusercontent.com/ovGVbvGC0oqmlit2-qaMSaMsy-eULKj958JRHwtdREA/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItWjZ5QmZYamhtd2xlbVdjNnctUWJxSVhzOUU1OS1sb2dvLnBuZw.webp",
-      "url": "https://apify.com/nimbryxo-studio/importyeti-us-importer-and-global-supplier-search",
-      "stats": {
-        "totalBuilds": 1,
-        "totalRuns": 0,
-        "totalUsers": 1,
-        "totalUsers7Days": 0,
-        "totalUsers30Days": 0,
-        "totalUsers90Days": 0,
-        "actorReviewCount": 0,
-        "actorReviewRating": 0,
-        "bookmarkCount": 0
-      },
-      "pricing": {
-        "pricingModel": "PAY_PER_EVENT",
-        "isPPEPlatformUsagePaidByUser": true,
-        "minimalMaxTotalChargeUsd": null,
-        "isPriceChangeNotificationSuppressed": false,
-        "pricingPerEvent": {
-          "actorChargeEvents": {
-            "apify-actor-start": {
-              "eventTitle": "Actor Start",
-              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
-              "isOneTimeEvent": true,
-              "eventTieredPricingUsd": {
-                "FREE": {
-                  "tieredEventPriceUsd": 0.1
-                },
-                "BRONZE": {
-                  "tieredEventPriceUsd": 0.077
-                },
-                "SILVER": {
-                  "tieredEventPriceUsd": 0.053
-                },
-                "GOLD": {
-                  "tieredEventPriceUsd": 0.03
-                },
-                "PLATINUM": {
-                  "tieredEventPriceUsd": 0.03
-                },
-                "DIAMOND": {
-                  "tieredEventPriceUsd": 0.03
-                }
-              }
-            },
-            "apify-default-dataset-item": {
-              "eventTitle": "result",
-              "eventDescription": "Single result in the default dataset.",
-              "isPrimaryEvent": true,
-              "eventTieredPricingUsd": {
-                "FREE": {
-                  "tieredEventPriceUsd": 0.00099
-                },
-                "BRONZE": {
-                  "tieredEventPriceUsd": 0.00082
-                },
-                "SILVER": {
-                  "tieredEventPriceUsd": 0.00066
-                },
-                "GOLD": {
-                  "tieredEventPriceUsd": 0.00049
-                },
-                "PLATINUM": {
-                  "tieredEventPriceUsd": 0.00049
-                },
-                "DIAMOND": {
-                  "tieredEventPriceUsd": 0.00049
-                }
-              }
-            }
-          }
-        },
-        "createdAt": "2026-11-02T15:11:38.594Z",
-        "startedAt": "2026-11-02T15:11:38.594Z",
-        "apifyMarginPercentage": 0.2
-      },
-      "readmeSummary": "",
-      "successRate": null,
       "popularity": 1
     },
     {
