@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T20:58:59.592Z",
+  "generatedAt": "2026-11-02T21:56:58.452Z",
   "orgCount": 4,
   "actorCount": 266,
   "actors": [
@@ -9717,7 +9717,7 @@
       "url": "https://apify.com/xyrelith-data/hostelworld-property-ratings-and-price-finder",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 3,
+        "totalRuns": 4,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -9725,7 +9725,7 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-02T07:45:15.605Z",
+        "lastRunStartedAt": "2026-11-02T21:12:25.689Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
