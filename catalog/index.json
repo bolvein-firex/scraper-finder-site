@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T13:26:28.401Z",
+  "generatedAt": "2026-11-03T15:06:39.144Z",
   "orgCount": 4,
   "actorCount": 276,
   "actors": [
@@ -1787,7 +1787,7 @@
       "url": "https://apify.com/xyrelith-data/99designs-designer-portfolio-and-stats-finder",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 6,
+        "totalRuns": 7,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -1795,7 +1795,7 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-03T11:14:31.533Z",
+        "lastRunStartedAt": "2026-11-03T14:00:16.112Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
@@ -4631,7 +4631,7 @@
       "url": "https://apify.com/xyrelith-data/czech-jobs-cz-postings-salary-and-brigady-finder",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 4,
+        "totalRuns": 5,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -4639,7 +4639,7 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-03T02:12:27.393Z",
+        "lastRunStartedAt": "2026-11-03T13:32:15.982Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
@@ -6890,12 +6890,12 @@
       "url": "https://apify.com/xyrelith-data/freelancermap-it-projects-and-freelancer-finder",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 8,
+        "totalRuns": 10,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
         "totalUsers90Days": 1,
-        "lastRunStartedAt": "2026-11-03T10:20:32.334Z",
+        "lastRunStartedAt": "2026-11-03T13:36:43.366Z",
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
@@ -7282,8 +7282,8 @@
       "pictureUrl": "https://images.apifyusercontent.com/xsdpH03nMqCtr8bPd9fMFNizygw4wqYNRfgEeDDcyDw/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTkw0VGhnSXRBd2FvQmxmZlEtYWN0b3ItRDB6OTJKcnVlVzFKQWhYS0wtbU5LaDdxNFppUC1sb2dvLnBuZw.webp",
       "url": "https://apify.com/vexaloom-labs/general-osteopathic-council-register-scraper",
       "stats": {
-        "totalBuilds": 1,
-        "totalRuns": 1,
+        "totalBuilds": 2,
+        "totalRuns": 2,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -7291,7 +7291,14 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-03T05:12:25.496Z"
+        "lastRunStartedAt": "2026-11-03T13:41:19.799Z",
+        "publicActorRunStats30Days": {
+          "ABORTED": 0,
+          "FAILED": 0,
+          "SUCCEEDED": 1,
+          "TIMED-OUT": 0,
+          "TOTAL": 1
+        }
       },
       "pricing": {
         "pricingModel": "PAY_PER_EVENT",
@@ -7357,7 +7364,7 @@
         "apifyMarginPercentage": 0.2
       },
       "readmeSummary": "",
-      "successRate": null,
+      "successRate": 100,
       "popularity": 102
     },
     {
@@ -13945,7 +13952,7 @@
       "url": "https://apify.com/xyrelith-data/new-york-dos-business-entity-registry-lookup",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 6,
+        "totalRuns": 7,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -13953,7 +13960,7 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-02T15:14:26.041Z",
+        "lastRunStartedAt": "2026-11-03T13:39:38.149Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
@@ -17463,7 +17470,7 @@
       "url": "https://apify.com/xyrelith-data/stockx-market-price-and-sales-history-finder",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 10,
+        "totalRuns": 11,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -17471,7 +17478,7 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-02T20:16:28.118Z",
+        "lastRunStartedAt": "2026-11-03T13:44:56.935Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
@@ -19622,12 +19629,12 @@
       "url": "https://apify.com/xyrelith-data/udemy-course-catalog-and-rating-finder",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 7,
+        "totalRuns": 8,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
         "totalUsers90Days": 1,
-        "lastRunStartedAt": "2026-11-03T01:14:27.782Z",
+        "lastRunStartedAt": "2026-11-03T13:48:02.910Z",
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
@@ -20210,7 +20217,7 @@
       "url": "https://apify.com/xyrelith-data/vimeo-channel-creator-and-video-metadata-extractor",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 7,
+        "totalRuns": 8,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -20218,7 +20225,7 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-03T06:14:26.768Z",
+        "lastRunStartedAt": "2026-11-03T13:54:36.163Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
@@ -20699,7 +20706,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/uAtfO788kRYqkv_7Ar06Y9h-fuHDycBmpkjZiHgCNmQ/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20venE4bEticEx6VGpHRGF5UEMtYWN0b3ItUmpZMEVIcm5ZVjZsODR5QWYtY1RSVGVYMDZpRS1sb2dvLnBuZw.webp",
       "url": "https://apify.com/dataspryva/washington-trails-association-hike-and-trip-report",
       "stats": {
-        "totalBuilds": 2,
+        "totalBuilds": 3,
         "totalRuns": 6,
         "totalUsers": 2,
         "totalUsers7Days": 1,
