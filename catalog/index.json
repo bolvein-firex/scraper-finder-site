@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T23:00:14.451Z",
+  "generatedAt": "2026-11-03T23:53:16.374Z",
   "orgCount": 4,
-  "actorCount": 281,
+  "actorCount": 282,
   "actors": [
     {
       "id": "vexaloom-labs~linkedin-people-search-by-name-with-company",
@@ -10611,9 +10611,9 @@
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 2,
+          "SUCCEEDED": 3,
           "TIMED-OUT": 0,
-          "TOTAL": 2
+          "TOTAL": 3
         }
       },
       "pricing": {
@@ -13347,7 +13347,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/enuDKi3anr5ayYcUgkXO3gavxEbvMA55cA3zCbu-XjM/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20venE4bEticEx6VGpHRGF5UEMtYWN0b3ItVkYxWkNuc29zVVFKbzJlN2ItY2REQzZ1RmhLSi1sb2dvLnBuZw.webp",
       "url": "https://apify.com/dataspryva/myntra-fashion-catalog-finder-by-category",
       "stats": {
-        "totalBuilds": 1,
+        "totalBuilds": 2,
         "totalRuns": 1,
         "totalUsers": 2,
         "totalUsers7Days": 1,
@@ -13356,7 +13356,14 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-03T18:12:26.664Z"
+        "lastRunStartedAt": "2026-11-03T18:12:26.664Z",
+        "publicActorRunStats30Days": {
+          "ABORTED": 0,
+          "FAILED": 0,
+          "SUCCEEDED": 1,
+          "TIMED-OUT": 0,
+          "TOTAL": 1
+        }
       },
       "pricing": {
         "pricingModel": "PAY_PER_EVENT",
@@ -13422,7 +13429,7 @@
         "apifyMarginPercentage": 0.2
       },
       "readmeSummary": "",
-      "successRate": null,
+      "successRate": 100,
       "popularity": 102
     },
     {
@@ -14797,6 +14804,97 @@
       },
       "readmeSummary": "",
       "successRate": 100,
+      "popularity": 102
+    },
+    {
+      "id": "dataspryva~patch-com-local-news-events-and-classifieds-finder",
+      "actorId": "C5BexVLa39ZcPgizT",
+      "title": "Patch.com Local News, Events & Classifieds Finder",
+      "description": "Search Patch.com's hyperlocal US news by keyword, town, category, author, or tag, and browse its local events calendar or classifieds board, with date-range and distance filters.",
+      "categories": [
+        "NEWS",
+        "AUTOMATION",
+        "LEAD_GENERATION"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/RE2ABt8wTW7brADb85k0Vi2UP0U_KDuPU_xEDFptkKo/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20venE4bEticEx6VGpHRGF5UEMtYWN0b3ItQzVCZXhWTGEzOVpjUGdpelQtQU5Ed3dXSUtKZC1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/dataspryva/patch-com-local-news-events-and-classifieds-finder",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "lastRunStartedAt": "2026-11-03T23:12:25.938Z"
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-03T23:11:32.470Z",
+        "startedAt": "2026-11-03T23:11:32.470Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
       "popularity": 102
     },
     {
@@ -17853,9 +17951,9 @@
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 3,
+          "SUCCEEDED": 4,
           "TIMED-OUT": 0,
-          "TOTAL": 3
+          "TOTAL": 4
         }
       },
       "pricing": {
