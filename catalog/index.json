@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T07:32:33.563Z",
+  "generatedAt": "2026-11-03T09:08:41.901Z",
   "orgCount": 4,
-  "actorCount": 272,
+  "actorCount": 273,
   "actors": [
     {
       "id": "vexaloom-labs~linkedin-people-search-by-name-with-company",
@@ -5002,8 +5002,8 @@
       "pictureUrl": "https://images.apifyusercontent.com/FnwNnYuNt7IKKaPV79no7OScigbxa9fnOEj56-vHSCY/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItZ2ZFc05hWmc2Y1VXS2ZBY2otWGFTSVI5cmVWRi1sb2dvLnBuZw.webp",
       "url": "https://apify.com/nimbryxo-studio/espn-live-scores-schedules-and-game-odds-scraper",
       "stats": {
-        "totalBuilds": 1,
-        "totalRuns": 4,
+        "totalBuilds": 2,
+        "totalRuns": 5,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -5011,13 +5011,13 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-01T13:31:57.625Z",
+        "lastRunStartedAt": "2026-11-02T12:16:34.201Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 3,
+          "SUCCEEDED": 4,
           "TIMED-OUT": 0,
-          "TOTAL": 3
+          "TOTAL": 4
         }
       },
       "pricing": {
@@ -6476,13 +6476,13 @@
       "pictureUrl": "https://images.apifyusercontent.com/gdLZAII0tPDl-o_CDtffUjUTf9mQttyZ195xcLIm2l4/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItOXAzRkpqOHdGMHgwY2swbHgtQ0l1a1dYY0ZNMy1sb2dvLnBuZw.webp",
       "url": "https://apify.com/nimbryxo-studio/flipkart-product-price-and-specs-scraper",
       "stats": {
-        "totalBuilds": 1,
-        "totalRuns": 5,
+        "totalBuilds": 2,
+        "totalRuns": 6,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
         "totalUsers90Days": 1,
-        "lastRunStartedAt": "2026-11-02T07:18:23.251Z",
+        "lastRunStartedAt": "2026-11-03T07:18:31.447Z",
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
@@ -6574,8 +6574,8 @@
       "pictureUrl": "https://images.apifyusercontent.com/jA6_8I9UgSQ5EzPfGP__J9j1AVbaOCkXPv1GH2R463U/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItcklpZlpyc2hrZHgxUUpIc0ktdlZ0ODFWcUJQeC1sb2dvLnBuZw.webp",
       "url": "https://apify.com/nimbryxo-studio/freelancer-com-project-budget-and-bids-scraper",
       "stats": {
-        "totalBuilds": 1,
-        "totalRuns": 4,
+        "totalBuilds": 2,
+        "totalRuns": 5,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -6583,13 +6583,13 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-01T22:16:21.896Z",
+        "lastRunStartedAt": "2026-11-02T22:16:24.972Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 3,
+          "SUCCEEDED": 4,
           "TIMED-OUT": 0,
-          "TOTAL": 3
+          "TOTAL": 4
         }
       },
       "pricing": {
@@ -10179,7 +10179,7 @@
       "url": "https://apify.com/xyrelith-data/hostelworld-property-ratings-and-price-finder",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 4,
+        "totalRuns": 5,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -10187,7 +10187,7 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-02T21:12:25.689Z",
+        "lastRunStartedAt": "2026-11-03T07:36:16.402Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
@@ -10858,7 +10858,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/LKmM_FrYERc05vErczCZRwlAkP6H_h7sZFqKujSV0jg/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItbDBYZVV5aDJlSFJOYlUzTTAtc2hZNFRWeW9rOS1sb2dvLnBuZw.webp",
       "url": "https://apify.com/nimbryxo-studio/indiamart-b2b-product-listings-by-city-and-state",
       "stats": {
-        "totalBuilds": 1,
+        "totalBuilds": 2,
         "totalRuns": 4,
         "totalUsers": 2,
         "totalUsers7Days": 1,
@@ -10870,10 +10870,10 @@
         "lastRunStartedAt": "2026-11-02T09:12:27.598Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
-          "FAILED": 1,
+          "FAILED": 2,
           "SUCCEEDED": 0,
           "TIMED-OUT": 0,
-          "TOTAL": 1
+          "TOTAL": 2
         }
       },
       "pricing": {
@@ -16624,6 +16624,97 @@
       "popularity": 102
     },
     {
+      "id": "dataspryva~snapchat-publisher-and-show-episode-finder",
+      "actorId": "9uJbBOcyQmzVkJGk7",
+      "title": "Snapchat Publisher & Show Episode Finder",
+      "description": "Look up Snapchat publisher and Snap Show profiles by URL or ID: subscriber count, premium episodes and seasons, and publisher Spotlight content with media links and engagement stats.",
+      "categories": [
+        "SOCIAL_MEDIA",
+        "VIDEOS",
+        "LEAD_GENERATION"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/IkRc2B3BoZ6mM0V9fPlB8YmNxlmV9ZXgW8dcjzDYWzo/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20venE4bEticEx6VGpHRGF5UEMtYWN0b3ItOXVKYkJPY3lRbXpWa0pHazctNmtpbThNNzBSdC1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/dataspryva/snapchat-publisher-and-show-episode-finder",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "lastRunStartedAt": "2026-11-03T08:12:26.918Z"
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-03T08:11:35.722Z",
+        "startedAt": "2026-11-03T08:11:35.722Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
+      "popularity": 102
+    },
+    {
       "id": "nimbryxo-studio~snapchat-snapcode-image-downloader",
       "actorId": "O27BjFfBqlgzXtLI0",
       "title": "Snapchat Snapcode Image Downloader",
@@ -16636,8 +16727,8 @@
       "pictureUrl": "https://images.apifyusercontent.com/hWR40xwAs6OTWfCht4bolf4SkcH5Gvv2X94zSvfqIvg/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItTzI3QmpGZkJxbGd6WHRMSTAtTWJyWElDOGR4Qy1sb2dvLnBuZw.webp",
       "url": "https://apify.com/nimbryxo-studio/snapchat-snapcode-image-downloader",
       "stats": {
-        "totalBuilds": 1,
-        "totalRuns": 3,
+        "totalBuilds": 2,
+        "totalRuns": 4,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -16645,13 +16736,13 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-01T17:14:24.760Z",
+        "lastRunStartedAt": "2026-11-02T17:14:26.705Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 3,
+          "SUCCEEDED": 4,
           "TIMED-OUT": 0,
-          "TOTAL": 3
+          "TOTAL": 4
         }
       },
       "pricing": {
@@ -20854,8 +20945,8 @@
       "pictureUrl": "https://images.apifyusercontent.com/sNvEQSiHK-giSlrGNFF2_nGaydHutcEZpSLjagnaMW4/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItUnZFS21wNXRacDdnTUR0ZVEtVkoxa3cxcTZGby1sb2dvLnBuZw.webp",
       "url": "https://apify.com/nimbryxo-studio/welcome-to-the-jungle-job-listings-and-salary",
       "stats": {
-        "totalBuilds": 1,
-        "totalRuns": 5,
+        "totalBuilds": 2,
+        "totalRuns": 6,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -20863,13 +20954,13 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-01T21:16:25.558Z",
+        "lastRunStartedAt": "2026-11-02T21:18:25.614Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 4,
+          "SUCCEEDED": 5,
           "TIMED-OUT": 0,
-          "TOTAL": 4
+          "TOTAL": 5
         }
       },
       "pricing": {
