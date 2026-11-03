@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T01:25:08.850Z",
+  "generatedAt": "2026-11-03T03:07:12.516Z",
   "orgCount": 4,
   "actorCount": 269,
   "actors": [
@@ -4027,7 +4027,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/mj_bp_6iaED4ELZmnkCrDOxBQxh5KdwLKUwGLkh_Er8/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20venE4bEticEx6VGpHRGF5UEMtYWN0b3ItcWhBQlp3dUlwN0sxWTYweUItYnhjV2g1ejFrTy1sb2dvLnBuZw.webp",
       "url": "https://apify.com/dataspryva/chinese-b2b-supplier-and-product-finder",
       "stats": {
-        "totalBuilds": 1,
+        "totalBuilds": 2,
         "totalRuns": 1,
         "totalUsers": 2,
         "totalUsers7Days": 1,
@@ -4036,7 +4036,14 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-02T22:12:25.440Z"
+        "lastRunStartedAt": "2026-11-02T22:12:25.440Z",
+        "publicActorRunStats30Days": {
+          "ABORTED": 0,
+          "FAILED": 0,
+          "SUCCEEDED": 1,
+          "TIMED-OUT": 0,
+          "TOTAL": 1
+        }
       },
       "pricing": {
         "pricingModel": "PAY_PER_EVENT",
@@ -4102,7 +4109,7 @@
         "apifyMarginPercentage": 0.2
       },
       "readmeSummary": "",
-      "successRate": null,
+      "successRate": 100,
       "popularity": 102
     },
     {
@@ -4512,7 +4519,7 @@
       "url": "https://apify.com/xyrelith-data/czech-jobs-cz-postings-salary-and-brigady-finder",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 3,
+        "totalRuns": 4,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -4520,7 +4527,7 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-02T13:33:50.650Z",
+        "lastRunStartedAt": "2026-11-03T02:12:27.393Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
