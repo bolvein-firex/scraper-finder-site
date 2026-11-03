@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T04:10:26.658Z",
+  "generatedAt": "2026-11-03T05:12:42.886Z",
   "orgCount": 4,
-  "actorCount": 270,
+  "actorCount": 271,
   "actors": [
     {
       "id": "vexaloom-labs~linkedin-people-search-by-name-with-company",
@@ -6960,7 +6960,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/Ec_zKxEL2OyZGHRbSDs36AEYnQMVqm9owGv9R2KxlQg/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTkw0VGhnSXRBd2FvQmxmZlEtYWN0b3Itbm5VNlNGaURQN01nRVlMcU8tNm1TUHVHaGVwRS1sb2dvLnBuZw.webp",
       "url": "https://apify.com/vexaloom-labs/general-chiropractic-council-register-scraper",
       "stats": {
-        "totalBuilds": 1,
+        "totalBuilds": 2,
         "totalRuns": 1,
         "totalUsers": 2,
         "totalUsers7Days": 1,
@@ -19306,9 +19306,9 @@
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 2,
+          "SUCCEEDED": 3,
           "TIMED-OUT": 0,
-          "TOTAL": 2
+          "TOTAL": 3
         }
       },
       "pricing": {
@@ -25260,6 +25260,93 @@
       },
       "readmeSummary": "",
       "successRate": 96,
+      "popularity": 1
+    },
+    {
+      "id": "vexaloom-labs~general-osteopathic-council-register-scraper",
+      "actorId": "D0z92JrueW1JAhXKL",
+      "title": "General Osteopathic Council Register Scraper",
+      "description": "Search the General Osteopathic Council's public register (osteopathy.org.uk) by postcode/town, surname, or practice features, or look up exact registration numbers. Returns status, qualifications, training, and practice details.",
+      "categories": [
+        "LEAD_GENERATION",
+        "AUTOMATION",
+        "OTHER"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/xsdpH03nMqCtr8bPd9fMFNizygw4wqYNRfgEeDDcyDw/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTkw0VGhnSXRBd2FvQmxmZlEtYWN0b3ItRDB6OTJKcnVlVzFKQWhYS0wtbU5LaDdxNFppUC1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/vexaloom-labs/general-osteopathic-council-register-scraper",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 0,
+        "totalUsers": 1,
+        "totalUsers7Days": 0,
+        "totalUsers30Days": 0,
+        "totalUsers90Days": 0
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-03T05:11:36.726Z",
+        "startedAt": "2026-11-03T05:11:36.726Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
       "popularity": 1
     },
     {
