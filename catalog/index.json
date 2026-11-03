@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T18:04:45.190Z",
+  "generatedAt": "2026-11-03T19:13:47.406Z",
   "orgCount": 4,
-  "actorCount": 278,
+  "actorCount": 279,
   "actors": [
     {
       "id": "vexaloom-labs~linkedin-people-search-by-name-with-company",
@@ -3454,7 +3454,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/Nd5oSQOHEMqp65ukoJm6dpXNslGFX35BIjEbYAfVdyA/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3Itb2c3U1ZHMGN2OUhCeVlXWGktNU94TE1QNWdPcy1sb2dvLnBuZw.webp",
       "url": "https://apify.com/nimbryxo-studio/bizbuysell-businesses-for-sale-and-financials",
       "stats": {
-        "totalBuilds": 1,
+        "totalBuilds": 2,
         "totalRuns": 8,
         "totalUsers": 2,
         "totalUsers7Days": 1,
@@ -3467,9 +3467,9 @@
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 5,
+          "SUCCEEDED": 6,
           "TIMED-OUT": 0,
-          "TOTAL": 5
+          "TOTAL": 6
         }
       },
       "pricing": {
@@ -3552,7 +3552,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/a34ZY3paBUoW3DokCVNjl0335lPzxJnaF-iGz5iEsVA/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItTUZsQXo2VDVCaGtyUzlxaGMtNmRTWmtxNGhCVy1sb2dvLnBuZw.webp",
       "url": "https://apify.com/nimbryxo-studio/bluesky-posts-profiles-feeds-and-threads-scraper",
       "stats": {
-        "totalBuilds": 1,
+        "totalBuilds": 2,
         "totalRuns": 3,
         "totalUsers": 2,
         "totalUsers7Days": 1,
@@ -3748,7 +3748,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/ZY2N8VsK0oq5SuW3p74TmP7paW7VtnjIEGcCF9rZBWQ/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3Itc1dJYUFPdWF1NWRFZ1RyUEEtSkEzS1JYVGM1ZC1sb2dvLnBuZw.webp",
       "url": "https://apify.com/nimbryxo-studio/booking-com-hotel-price-and-amenity-search-scraper",
       "stats": {
-        "totalBuilds": 2,
+        "totalBuilds": 3,
         "totalRuns": 19,
         "totalUsers": 2,
         "totalUsers7Days": 1,
@@ -4042,7 +4042,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/mo6F6Mtf-HVPm6tycu_-7FGI2VdhSZQQuoTUvfIiUsg/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItSEZ2dktIYU1hYmVlTXMwRmEtUnYzeTRCbFBwbC1sb2dvLnBuZw.webp",
       "url": "https://apify.com/nimbryxo-studio/builtin-tech-company-directory-and-hiring-signal",
       "stats": {
-        "totalBuilds": 1,
+        "totalBuilds": 2,
         "totalRuns": 5,
         "totalUsers": 2,
         "totalUsers7Days": 1,
@@ -4055,9 +4055,9 @@
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 3,
+          "SUCCEEDED": 4,
           "TIMED-OUT": 0,
-          "TOTAL": 3
+          "TOTAL": 4
         }
       },
       "pricing": {
@@ -8649,7 +8649,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/LVgHfBrYwqHLtqKptO0rjIExbP0tpjRjAUZRavAxoZ0/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItSzdEZWVWenU2WWYybFNLYk8tTlFVN0pPcURxVC1sb2dvLnBuZw.webp",
       "url": "https://apify.com/nimbryxo-studio/google-maps-photo-gallery-extractor-by-category",
       "stats": {
-        "totalBuilds": 1,
+        "totalBuilds": 2,
         "totalRuns": 8,
         "totalUsers": 2,
         "totalUsers7Days": 1,
@@ -13153,6 +13153,97 @@
       "popularity": 102
     },
     {
+      "id": "dataspryva~myntra-fashion-catalog-finder-by-category",
+      "actorId": "VF1ZCnsosUQJo2e7b",
+      "title": "Myntra Fashion Catalog Finder by Category & Brand",
+      "description": "Search Myntra's fashion catalog by keyword, category, or brand, or fetch specific products, for MRP, price, discount, ratings, sizes, colors, and category detail.",
+      "categories": [
+        "ECOMMERCE",
+        "AUTOMATION",
+        "LEAD_GENERATION"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/enuDKi3anr5ayYcUgkXO3gavxEbvMA55cA3zCbu-XjM/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20venE4bEticEx6VGpHRGF5UEMtYWN0b3ItVkYxWkNuc29zVVFKbzJlN2ItY2REQzZ1RmhLSi1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/dataspryva/myntra-fashion-catalog-finder-by-category",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "lastRunStartedAt": "2026-11-03T18:12:26.664Z"
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-03T18:11:33.428Z",
+        "startedAt": "2026-11-03T18:11:33.428Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
+      "popularity": 102
+    },
+    {
       "id": "nimbryxo-studio~naukri-com-job-listings-extractor-with-salary",
       "actorId": "Jfbzt9vLDGEVoJVyI",
       "title": "Naukri.com Job Listings Extractor with Salary & Skills",
@@ -13755,7 +13846,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/sBKtaZSKI-BRuQ2X7pgV9Jm_8hFF3TJclLGa0tyUjfI/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItWkQzZEY2b1plRGtZYWYyaGstam82T2ViV1J0MS1sb2dvLnBuZw.webp",
       "url": "https://apify.com/nimbryxo-studio/ncaa-team-and-player-leaderboards-polls",
       "stats": {
-        "totalBuilds": 1,
+        "totalBuilds": 2,
         "totalRuns": 3,
         "totalUsers": 2,
         "totalUsers7Days": 1,
@@ -13768,9 +13859,9 @@
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 1,
+          "SUCCEEDED": 2,
           "TIMED-OUT": 0,
-          "TOTAL": 1
+          "TOTAL": 2
         }
       },
       "pricing": {
