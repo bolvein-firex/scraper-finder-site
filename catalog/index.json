@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T16:10:05.957Z",
+  "generatedAt": "2026-11-03T17:14:51.008Z",
   "orgCount": 4,
-  "actorCount": 277,
+  "actorCount": 278,
   "actors": [
     {
       "id": "vexaloom-labs~linkedin-people-search-by-name-with-company",
@@ -5121,13 +5121,13 @@
       "pictureUrl": "https://images.apifyusercontent.com/DYJNHILuoHrUJ8PdfNEN3QRH6BHTHtmKBiHg5jJbjds/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTkw0VGhnSXRBd2FvQmxmZlEtYWN0b3ItMUhoRjFqZERZNk9PQjNmOWItYTBWNWh0TnFjVC1sb2dvLnBuZw.webp",
       "url": "https://apify.com/vexaloom-labs/ecwid-app-market-pricing-and-category-scraper",
       "stats": {
-        "totalBuilds": 1,
-        "totalRuns": 1,
+        "totalBuilds": 2,
+        "totalRuns": 2,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
         "totalUsers90Days": 1,
-        "lastRunStartedAt": "2026-11-03T10:12:24.578Z",
+        "lastRunStartedAt": "2026-11-03T13:46:24.316Z",
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
@@ -17261,6 +17261,97 @@
       "popularity": 102
     },
     {
+      "id": "nimbryxo-studio~soundcloud-charts-search-and-artist-catalog",
+      "actorId": "xauSnBo64ZqngihHG",
+      "title": "SoundCloud Charts, Search & Artist Catalog Scraper",
+      "description": "Scrape SoundCloud - search tracks and artists, browse top/trending charts, fetch all tracks from an artist, or fetch any track/playlist/user URL. Extracts plays, likes, reposts, waveforms, artwork, genre, tags, and stream URLs. No API key required.",
+      "categories": [
+        "SOCIAL_MEDIA",
+        "AUTOMATION",
+        "DEVELOPER_TOOLS"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/h8ukpDqTxZNA_BrJOCXHwKH39UicCsY-ZHL4tFOi-wk/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3IteGF1U25CbzY0WnFuZ2loSEctT2RJeGNzZHI1dy1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/nimbryxo-studio/soundcloud-charts-search-and-artist-catalog",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "lastRunStartedAt": "2026-11-03T16:12:27.608Z",
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-03T16:12:12.403Z",
+        "startedAt": "2026-11-03T16:12:12.403Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
+      "popularity": 102
+    },
+    {
       "id": "dataspryva~southeast-asia-property-listings-by-country",
       "actorId": "qPkm9zhap3uCleMSt",
       "title": "Southeast Asia Property Listings by Country & Bedroom Count",
@@ -18641,21 +18732,21 @@
       "url": "https://apify.com/xyrelith-data/tor-hidden-service-crawler-and-contact-extractor",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 6,
+        "totalRuns": 7,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
         "totalUsers90Days": 1,
-        "lastRunStartedAt": "2026-11-03T07:31:55.942Z",
+        "lastRunStartedAt": "2026-11-03T16:14:27.730Z",
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 2,
+          "SUCCEEDED": 3,
           "TIMED-OUT": 0,
-          "TOTAL": 2
+          "TOTAL": 3
         }
       },
       "pricing": {
