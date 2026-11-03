@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T11:11:55.240Z",
+  "generatedAt": "2026-11-03T12:02:15.953Z",
   "orgCount": 4,
-  "actorCount": 274,
+  "actorCount": 275,
   "actors": [
     {
       "id": "vexaloom-labs~linkedin-people-search-by-name-with-company",
@@ -1787,7 +1787,7 @@
       "url": "https://apify.com/xyrelith-data/99designs-designer-portfolio-and-stats-finder",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 5,
+        "totalRuns": 6,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -1795,13 +1795,13 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-02T14:04:02.193Z",
+        "lastRunStartedAt": "2026-11-03T11:14:31.533Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 2,
+          "SUCCEEDED": 3,
           "TIMED-OUT": 0,
-          "TOTAL": 2
+          "TOTAL": 3
         }
       },
       "pricing": {
@@ -14517,6 +14517,97 @@
       },
       "readmeSummary": "",
       "successRate": 100,
+      "popularity": 102
+    },
+    {
+      "id": "nimbryxo-studio~pexels-stock-media-scraper-2",
+      "actorId": "b6anw2Kxq3xyPpgNC",
+      "title": "Pexels Stock Media Scraper",
+      "description": "Scrape free stock photos and videos from Pexels. Search by keyword, browse curated/popular media, a photographer's portfolio, or a curated collection. Get direct image and video file URLs, photographer credit, tags, colors, and more.",
+      "categories": [
+        "AUTOMATION",
+        "DEVELOPER_TOOLS",
+        "VIDEOS"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/seSJFxOsBluQRGHWCGZwfmc1h11AzWhE87HWeGggtBY/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItYjZhbncyS3hxM3h5UHBnTkMtZHoxbUloOFpPWC1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/nimbryxo-studio/pexels-stock-media-scraper-2",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "lastRunStartedAt": "2026-11-03T11:12:27.097Z",
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-03T11:11:55.768Z",
+        "startedAt": "2026-11-03T11:11:55.768Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
       "popularity": 102
     },
     {
