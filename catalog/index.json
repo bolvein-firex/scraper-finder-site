@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T20:08:41.257Z",
+  "generatedAt": "2026-11-03T21:03:10.362Z",
   "orgCount": 4,
-  "actorCount": 279,
+  "actorCount": 280,
   "actors": [
     {
       "id": "vexaloom-labs~linkedin-people-search-by-name-with-company",
@@ -6776,6 +6776,97 @@
       },
       "readmeSummary": "",
       "successRate": 100,
+      "popularity": 102
+    },
+    {
+      "id": "vexaloom-labs~fotocasa-spain-sale-and-rental-listings-scraper",
+      "actorId": "o33Jzuf8dGQeft46K",
+      "title": "Fotocasa Spain Sale & Rental Listings Scraper",
+      "description": "Search Fotocasa listings for sale or rent across Spain by city, property type, price range, and bedrooms. Each result includes price, size, bedrooms, bathrooms, location, images, and the listing URL.",
+      "categories": [
+        "REAL_ESTATE",
+        "LEAD_GENERATION",
+        "AUTOMATION"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/zP8PJYg3Z__bhy9pVXsJE1iQIEe0r1bjdXkxwTULOxw/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTkw0VGhnSXRBd2FvQmxmZlEtYWN0b3ItbzMzSnp1ZjhkR1FlZnQ0NkstZDk1QTVKbXhmQi1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/vexaloom-labs/fotocasa-spain-sale-and-rental-listings-scraper",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "lastRunStartedAt": "2026-11-03T20:12:26.061Z"
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-03T20:11:34.801Z",
+        "startedAt": "2026-11-03T20:11:34.801Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
       "popularity": 102
     },
     {
@@ -17652,7 +17743,7 @@
       "url": "https://apify.com/xyrelith-data/stockx-market-price-and-sales-history-finder",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 11,
+        "totalRuns": 12,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -17660,7 +17751,7 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-03T13:44:56.935Z",
+        "lastRunStartedAt": "2026-11-03T20:18:27.347Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
