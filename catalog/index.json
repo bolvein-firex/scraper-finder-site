@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T06:11:11.333Z",
+  "generatedAt": "2026-11-03T07:32:33.563Z",
   "orgCount": 4,
-  "actorCount": 271,
+  "actorCount": 272,
   "actors": [
     {
       "id": "vexaloom-labs~linkedin-people-search-by-name-with-company",
@@ -7421,6 +7421,97 @@
       },
       "readmeSummary": "",
       "successRate": 100,
+      "popularity": 102
+    },
+    {
+      "id": "nimbryxo-studio~goc-optician-and-optometrist-register-scraper",
+      "actorId": "nM2vtMcH1bZsKtNf3",
+      "title": "GOC Optician & Optometrist Register Scraper",
+      "description": "Search the General Optical Council's public Specialist Register (str.optical.org) for registered UK optometrists, dispensing opticians, students, and optical businesses - by name, GOC number, specialty, or postcode radius.",
+      "categories": [
+        "LEAD_GENERATION",
+        "AUTOMATION",
+        "OTHER"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/nBBax6ASjypda6IaONmR6aSr63Ymp3chNm3HWHBs4JA/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3Itbk0ydnRNY0gxYlpzS3ROZjMtMVBQSkVsTkJtai1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/nimbryxo-studio/goc-optician-and-optometrist-register-scraper",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "lastRunStartedAt": "2026-11-03T06:12:24.471Z"
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-03T06:11:36.829Z",
+        "startedAt": "2026-11-03T06:11:36.829Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
       "popularity": 102
     },
     {
@@ -18313,12 +18404,12 @@
       "url": "https://apify.com/xyrelith-data/tor-hidden-service-crawler-and-contact-extractor",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 5,
+        "totalRuns": 6,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
         "totalUsers90Days": 1,
-        "lastRunStartedAt": "2026-11-02T16:12:28.616Z",
+        "lastRunStartedAt": "2026-11-03T07:31:55.942Z",
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
@@ -19980,7 +20071,7 @@
       "url": "https://apify.com/xyrelith-data/vimeo-channel-creator-and-video-metadata-extractor",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 6,
+        "totalRuns": 7,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -19988,7 +20079,7 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-02T13:51:08.092Z",
+        "lastRunStartedAt": "2026-11-03T06:14:26.768Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
