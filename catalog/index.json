@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-04T07:37:28.605Z",
+  "generatedAt": "2026-11-04T09:15:11.128Z",
   "orgCount": 4,
-  "actorCount": 287,
+  "actorCount": 288,
   "actors": [
     {
       "id": "vexaloom-labs~linkedin-people-search-by-name-with-company",
@@ -2552,6 +2552,97 @@
       "popularity": 102
     },
     {
+      "id": "dataspryva~amazon-search-category-and-seller-listings",
+      "actorId": "jLafkpWTCRAFfUa54",
+      "title": "Amazon Search, Category & Seller Listings Extractor",
+      "description": "Get Amazon products from search results, categories, seller storefronts, or ASIN lookups across 20+ marketplaces, with price, rating, badges, deals, and delivery details.",
+      "categories": [
+        "ECOMMERCE",
+        "AUTOMATION",
+        "LEAD_GENERATION"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/LHreb2oHfgtNoTy23gsKejJllV94mZhfH7wn8lQcJIU/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20venE4bEticEx6VGpHRGF5UEMtYWN0b3ItakxhZmtwV1RDUkFGZlVhNTQtNlIzSzVDN2RkOS1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/dataspryva/amazon-search-category-and-seller-listings",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "lastRunStartedAt": "2026-11-04T08:16:23.724Z"
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-04T08:15:35.530Z",
+        "startedAt": "2026-11-04T08:15:35.530Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
+      "popularity": 102
+    },
+    {
       "id": "nimbryxo-studio~app-store-search-lookup-and-reviews-scraper",
       "actorId": "JQPGqizffRzaBsE3E",
       "title": "App Store Search, Lookup & Reviews Scraper",
@@ -4722,7 +4813,7 @@
       "url": "https://apify.com/xyrelith-data/czech-jobs-cz-postings-salary-and-brigady-finder",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 6,
+        "totalRuns": 7,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -4730,7 +4821,7 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-04T02:14:26.628Z",
+        "lastRunStartedAt": "2026-11-04T08:06:19.183Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
@@ -10606,7 +10697,7 @@
       "url": "https://apify.com/xyrelith-data/hostelworld-property-ratings-and-price-finder",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 6,
+        "totalRuns": 8,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -10614,7 +10705,7 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-03T21:14:26.702Z",
+        "lastRunStartedAt": "2026-11-04T07:41:12.501Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
@@ -13445,7 +13536,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/tW8JxBEOBGNj5Qco9QkhUifKz32qfWIZyXL-4ZVCAi0/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTkw0VGhnSXRBd2FvQmxmZlEtYWN0b3ItVVZSUnhSRGZ0UzF1aWJ0d0MteTJVMkVXVmhjUy1sb2dvLnBuZw.webp",
       "url": "https://apify.com/vexaloom-labs/multi-site-username-lookup-and-profile-link-finder",
       "stats": {
-        "totalBuilds": 1,
+        "totalBuilds": 2,
         "totalRuns": 1,
         "totalUsers": 2,
         "totalUsers7Days": 1,
