@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-04T05:19:46.144Z",
+  "generatedAt": "2026-11-04T07:37:28.605Z",
   "orgCount": 4,
-  "actorCount": 285,
+  "actorCount": 287,
   "actors": [
     {
       "id": "vexaloom-labs~linkedin-people-search-by-name-with-company",
@@ -4734,9 +4734,9 @@
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
-          "SUCCEEDED": 2,
+          "SUCCEEDED": 3,
           "TIMED-OUT": 0,
-          "TOTAL": 2
+          "TOTAL": 3
         }
       },
       "pricing": {
@@ -13433,6 +13433,97 @@
       "popularity": 102
     },
     {
+      "id": "vexaloom-labs~multi-site-username-lookup-and-profile-link-finder",
+      "actorId": "UVRRxRDftS1uibtwC",
+      "title": "Multi-Site Username Lookup & Profile Link Finder",
+      "description": "Search for usernames across 400+ social networks and websites and get a direct profile URL for every site where that username exists. No login or API keys required.",
+      "categories": [
+        "SOCIAL_MEDIA",
+        "LEAD_GENERATION",
+        "AUTOMATION"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/tW8JxBEOBGNj5Qco9QkhUifKz32qfWIZyXL-4ZVCAi0/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vTkw0VGhnSXRBd2FvQmxmZlEtYWN0b3ItVVZSUnhSRGZ0UzF1aWJ0d0MteTJVMkVXVmhjUy1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/vexaloom-labs/multi-site-username-lookup-and-profile-link-finder",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "lastRunStartedAt": "2026-11-04T06:12:26.277Z",
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-04T06:11:46.553Z",
+        "startedAt": "2026-11-04T06:11:46.553Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
+      "popularity": 102
+    },
+    {
       "id": "dataspryva~myntra-fashion-catalog-finder-by-category",
       "actorId": "VF1ZCnsosUQJo2e7b",
       "title": "Myntra Fashion Catalog Finder by Category & Brand",
@@ -17541,6 +17632,97 @@
       "popularity": 102
     },
     {
+      "id": "nimbryxo-studio~snapchat-spotlight-video-link-and-caption",
+      "actorId": "XgHgPRuRuydAmORvP",
+      "title": "Snapchat Spotlight Video Link & Caption Downloader",
+      "description": "Give this actor one or more Snapchat Spotlight links and get back a direct video link, thumbnail, caption, creator info and engagement counts per video, with optional AI-generated metadata, transcript and comments.",
+      "categories": [
+        "SOCIAL_MEDIA",
+        "VIDEOS",
+        "AUTOMATION"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/reIs7p4S3DfS7sca8IvabZdwXJboS0SFd4qRSs8e79E/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItWGdIZ1BSdVJ1eWRBbU9SdlAtbHhiN1VTQ1dtMi1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/nimbryxo-studio/snapchat-spotlight-video-link-and-caption",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0,
+        "lastRunStartedAt": "2026-11-04T07:12:25.712Z"
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-04T07:11:34.597Z",
+        "startedAt": "2026-11-04T07:11:34.597Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
+      "popularity": 102
+    },
+    {
       "id": "dataspryva~snapchat-topic-spotlight-feed-and-content-tag",
       "actorId": "1pDXF7JRNIfGATKcB",
       "title": "Snapchat Topic Spotlight Feed & Content Tag Extractor",
@@ -18036,7 +18218,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/XXaHzbieyM1HAfXdrSb4IGY7lCaMqB7Msy6dG5MEgzY/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20venE4bEticEx6VGpHRGF5UEMtYWN0b3ItS2NSdHBWcnFUY21zaHdKR0UtaURhVzRqcHBPRS1sb2dvLnBuZw.webp",
       "url": "https://apify.com/dataspryva/steam-game-reviews-and-playtime-extractor",
       "stats": {
-        "totalBuilds": 1,
+        "totalBuilds": 2,
         "totalRuns": 1,
         "totalUsers": 2,
         "totalUsers7Days": 1,
@@ -18045,7 +18227,14 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-04T04:12:26.321Z"
+        "lastRunStartedAt": "2026-11-04T04:12:26.321Z",
+        "publicActorRunStats30Days": {
+          "ABORTED": 0,
+          "FAILED": 0,
+          "SUCCEEDED": 1,
+          "TIMED-OUT": 0,
+          "TOTAL": 1
+        }
       },
       "pricing": {
         "pricingModel": "PAY_PER_EVENT",
@@ -18111,7 +18300,7 @@
         "apifyMarginPercentage": 0.2
       },
       "readmeSummary": "",
-      "successRate": null,
+      "successRate": 100,
       "popularity": 102
     },
     {
@@ -19306,12 +19495,12 @@
       "url": "https://apify.com/xyrelith-data/tor-hidden-service-crawler-and-contact-extractor",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 7,
+        "totalRuns": 8,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
         "totalUsers90Days": 1,
-        "lastRunStartedAt": "2026-11-03T16:14:27.730Z",
+        "lastRunStartedAt": "2026-11-04T07:34:31.658Z",
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
@@ -20973,7 +21162,7 @@
       "url": "https://apify.com/xyrelith-data/vimeo-channel-creator-and-video-metadata-extractor",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 8,
+        "totalRuns": 9,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -20981,7 +21170,7 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-03T13:54:36.163Z",
+        "lastRunStartedAt": "2026-11-04T06:16:27.906Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
