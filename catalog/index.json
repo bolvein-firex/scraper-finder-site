@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-04T01:25:36.979Z",
+  "generatedAt": "2026-11-04T03:06:46.807Z",
   "orgCount": 4,
-  "actorCount": 283,
+  "actorCount": 284,
   "actors": [
     {
       "id": "vexaloom-labs~linkedin-people-search-by-name-with-company",
@@ -4722,7 +4722,7 @@
       "url": "https://apify.com/xyrelith-data/czech-jobs-cz-postings-salary-and-brigady-finder",
       "stats": {
         "totalBuilds": 2,
-        "totalRuns": 5,
+        "totalRuns": 6,
         "totalUsers": 2,
         "totalUsers7Days": 1,
         "totalUsers30Days": 1,
@@ -4730,7 +4730,7 @@
         "actorReviewCount": 0,
         "actorReviewRating": 0,
         "bookmarkCount": 0,
-        "lastRunStartedAt": "2026-11-03T13:32:15.982Z",
+        "lastRunStartedAt": "2026-11-04T02:14:26.628Z",
         "publicActorRunStats30Days": {
           "ABORTED": 0,
           "FAILED": 0,
@@ -14917,7 +14917,7 @@
       "pictureUrl": "https://images.apifyusercontent.com/RE2ABt8wTW7brADb85k0Vi2UP0U_KDuPU_xEDFptkKo/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20venE4bEticEx6VGpHRGF5UEMtYWN0b3ItQzVCZXhWTGEzOVpjUGdpelQtQU5Ed3dXSUtKZC1sb2dvLnBuZw.webp",
       "url": "https://apify.com/dataspryva/patch-com-local-news-events-and-classifieds-finder",
       "stats": {
-        "totalBuilds": 1,
+        "totalBuilds": 2,
         "totalRuns": 1,
         "totalUsers": 2,
         "totalUsers7Days": 1,
@@ -23220,6 +23220,97 @@
       },
       "readmeSummary": "",
       "successRate": 100,
+      "popularity": 102
+    },
+    {
+      "id": "nimbryxo-studio~yandex-market-price-and-seller-offer-comparison",
+      "actorId": "XOsDPtQpdza8krB4z",
+      "title": "Yandex Market Price & Seller Offer Comparison Scraper",
+      "description": "Scrape product listings, prices, seller offers, and reviews from Yandex Market. Search by keyword, browse a category, pull a product's full seller-offer comparison, or collect product and seller reviews.",
+      "categories": [
+        "ECOMMERCE",
+        "AUTOMATION",
+        "DEVELOPER_TOOLS"
+      ],
+      "pictureUrl": "https://images.apifyusercontent.com/VtmVFAjv3bgRZs3rD0oIN3L5JWCocDuLC6_WH-NH5X4/rs:fill:76:76/cb:1/aHR0cHM6Ly9hcGlmeS1pbWFnZS11cGxvYWRzLXByb2QuczMudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vSVlnQkRpWHRIT2lqQWFVZWwtYWN0b3ItWE9zRFB0UXBkemE4a3JCNHotNHBtOTB0THZkMy1sb2dvLnBuZw.webp",
+      "url": "https://apify.com/nimbryxo-studio/yandex-market-price-and-seller-offer-comparison",
+      "stats": {
+        "totalBuilds": 1,
+        "totalRuns": 1,
+        "totalUsers": 2,
+        "totalUsers7Days": 1,
+        "totalUsers30Days": 1,
+        "totalUsers90Days": 1,
+        "lastRunStartedAt": "2026-11-04T02:12:25.974Z",
+        "actorReviewCount": 0,
+        "actorReviewRating": 0,
+        "bookmarkCount": 0
+      },
+      "pricing": {
+        "pricingModel": "PAY_PER_EVENT",
+        "isPPEPlatformUsagePaidByUser": true,
+        "minimalMaxTotalChargeUsd": null,
+        "isPriceChangeNotificationSuppressed": false,
+        "pricingPerEvent": {
+          "actorChargeEvents": {
+            "apify-actor-start": {
+              "eventTitle": "Actor Start",
+              "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+              "isOneTimeEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.1
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.077
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.053
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.03
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.03
+                }
+              }
+            },
+            "apify-default-dataset-item": {
+              "eventTitle": "result",
+              "eventDescription": "Single result in the default dataset.",
+              "isPrimaryEvent": true,
+              "eventTieredPricingUsd": {
+                "FREE": {
+                  "tieredEventPriceUsd": 0.00099
+                },
+                "BRONZE": {
+                  "tieredEventPriceUsd": 0.00082
+                },
+                "SILVER": {
+                  "tieredEventPriceUsd": 0.00066
+                },
+                "GOLD": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "PLATINUM": {
+                  "tieredEventPriceUsd": 0.00049
+                },
+                "DIAMOND": {
+                  "tieredEventPriceUsd": 0.00049
+                }
+              }
+            }
+          }
+        },
+        "createdAt": "2026-11-04T02:11:59.632Z",
+        "startedAt": "2026-11-04T02:11:59.632Z",
+        "apifyMarginPercentage": 0.2
+      },
+      "readmeSummary": "",
+      "successRate": null,
       "popularity": 102
     },
     {
